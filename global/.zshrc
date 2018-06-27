@@ -9,7 +9,7 @@ WORKSPACE_PATH="~/Documents/workspace"
 
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
-    . ~/$(pwd)/linux-commands
+    . ~/$(pwd)linux-commands
 elif [[ "$unamestr" == 'Darwin' ]]; then
     . ~/$(pwd)/darwin-commands
 fi
