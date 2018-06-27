@@ -1,0 +1,21 @@
+general {
+        output_format = "none"
+        colors = false
+        interval = 5
+}
+
+order += "cpu_usage"
+order += "cpu_temperature 0"
+order += "tztime local"
+
+cpu_usage {
+  format = "CPU %usage"
+}
+
+cpu_temperature 0{
+  format = "T: %degrees"
+}
+
+tztime local {
+  format = "%a %Y-%m-%d %I:%M"
+}

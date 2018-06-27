@@ -1,0 +1,8 @@
+"xte 'keydown Control_L' 'keydown Alt_L' 'key Up' 'keyup Alt_L' 'keyup Control_L'"
+b:9
+
+"xte 'keydown Control_L' 'keydown Alt_L' 'key Down' 'keyup Alt_L' 'keyup Control_L'"
+b:8
+
+
+#NOTE: Run xbindkeys if this modification doesn't work. 
