@@ -1,7 +1,6 @@
 #install 
-alias installAll=`sudo apt-get install -y --assume-yes unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree`
-alias i3InstallAll='sudo apt-get install -y --assume-yes xorg lightdm i3 rofi gnome-terminal firefox thunar compton feh lxappearance xinit gnome-control'
-alias forceInstall='sudo apt-get install -f'
+#alias installAll=`sudo apt-get install -y --assume-yes unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree`
+#alias i3InstallAll='sudo apt-get install -y --assume-yes xorg lightdm i3 rofi gnome-terminal firefox thunar compton feh lxappearance xinit gnome-control'
 alias setupZsh='wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh && chsh -s $(which zsh)'
 
 #ubuntu/debian
@@ -47,4 +46,4 @@ extract() {
      fi 
 }
 
-xbindkeys
+#xbindkeys
