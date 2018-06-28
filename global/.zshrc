@@ -5,7 +5,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-export WORKSPACE_PATH="~/Documents/workspace"
 export PATH_TO_CONFIG_OS=~/Documents/workspace/config-os
 export PATH_TO_LINUX_CONFIG_FILES=$PATH_TO_CONFIG_OS/linux
 export PATH_TO_DARWIN_CONFIG_FILES=$PATH_TO_CONFIG_OS/darwin
