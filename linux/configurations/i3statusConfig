@@ -1,12 +1,12 @@
 general {
-        output_format = "none"
-        colors = false
-        interval = 5
+    output_format = "dzen2"
+    colors = true
+    interval = 5
 }
 
 order += "cpu_usage"
 order += "cpu_temperature 0"
-order += "tztime local"
+order += "time"
 
 cpu_usage {
   format = "CPU %usage"
@@ -16,6 +16,6 @@ cpu_temperature 0{
   format = "T: %degrees"
 }
 
-tztime local {
+time {
   format = "%a %Y-%m-%d %I:%M"
 }
