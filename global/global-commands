@@ -40,6 +40,7 @@ alias gconfig='git config --list'
 alias gconfigname='git config --global user.name "bhavik"'
 alias gconfigemail='git config --global user.name "bhavik@email.com"'
 alias gdiff='git diff'
+alias grevert='git reset --hard'
 
 #ssh
 alias deleteAllSSHKeys='ssh-add -D'
