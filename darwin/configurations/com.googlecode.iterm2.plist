@@ -82,7 +82,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>857 572 796 473 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>87 422 760 602 0 0 1920 1058 </string>
+	<string>87 401 760 602 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>247 21 685 526 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
@@ -1637,6 +1637,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/bhavik/Documents/workspace/config-os/darwin/configurations</string>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
