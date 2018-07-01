@@ -33,6 +33,7 @@ alias gcommit='git commit -am'
 alias gpush='git push'
 alias gpull='git pull'
 alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
+alias ghistorypretty='git log --pretty=oneline'
 alias glog='git log'
 alias ginit='git init'
 alias gclone='git clone'
@@ -41,6 +42,22 @@ alias gconfigname='git config --global user.name "bhavik"'
 alias gconfigemail='git config --global user.name "bhavik@email.com"'
 alias gdiff='git diff'
 alias grevert='git reset --hard'
+alias gfetch='git fetch origin'
+alias gbranch='git branch'
+alias gbranchall='git branch -a'
+alias gcoutbranch='git checkout -b'
+
+#git tag tagName
+alias gcreatetag='git tag'
+
+#push all tags to remote
+alias gpushalltags='git push --tags'
+
+#git tag -d tagNameToDelete
+alias gdeletetag='git tag -d'
+
+#git push origin :refs/tags/tagName
+alias gpushtags='git push origin :refs/tags'
 
 #ssh
 alias deleteAllSSHKeys='ssh-add -D'
