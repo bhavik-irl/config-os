@@ -26,6 +26,7 @@ alias reactjs='cd $WORKSPACE_PATH/reactjs'
 
 #git
 alias gstatus='git status'
+alias gaddem='git add .'
 alias gcommit='git commit -am'
 alias gpush='git push'
 alias gpull='git pull'
