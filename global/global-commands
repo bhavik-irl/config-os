@@ -27,11 +27,19 @@ alias reactjs='cd $WORKSPACE_PATH/reactjs'
 #git
 alias gstatus='git status'
 alias gaddem='git add .'
+alias gadd='git add'
+alias grm='git rm'
 alias gcommit='git commit -am'
 alias gpush='git push'
 alias gpull='git pull'
 alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
-
+alias glog='git log'
+alias ginit='git init'
+alias gclone='git clone'
+alias gconfig='git config --list'
+alias gconfigname='git config --global user.name "bhavik"'
+alias gconfigemail='git config --global user.name "bhavik@email.com"'
+alias gdiff='git diff'
 
 #ssh
 alias deleteAllSSHKeys='ssh-add -D'
