@@ -80,7 +80,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>682 499 620 392 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>857 551 916 485 0 0 1920 1058 </string>
+	<string>857 630 928 394 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>130 333 760 602 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -103,13 +103,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.8896484375</real>
+				<real>0.84375</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.87047323057389703</real>
+				<real>0.82565046609706538</real>
 				<key>Red Component</key>
-				<real>0.79537035524845123</real>
+				<real>0.7547607421875</real>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
@@ -198,25 +198,29 @@
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>0.0</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.59999999999999998</real>
+				<real>0.70196078431372544</real>
 				<key>Red Component</key>
-				<real>0.52156862745098043</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>0.0</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.53725490196078429</real>
+				<real>0.703125</real>
 				<key>Red Component</key>
-				<real>0.70980392156862748</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
