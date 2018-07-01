@@ -27,7 +27,7 @@
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
-	<false/>
+	<true/>
 	<key>HideTabCloseButton</key>
 	<false/>
 	<key>HideTabNumber</key>
@@ -78,9 +78,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>682 499 620 392 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>857 519 796 473 0 0 1920 1058 </string>
+	<string>857 563 770 429 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>130 409 685 526 0 0 1920 1058 </string>
+	<string>130 433 685 502 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>247 21 685 526 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
