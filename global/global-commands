@@ -11,17 +11,16 @@ alias edit='vim'
 alias c='clear'
 
 #files navigation
-alias devtools='cd $WORKSPACE_PATH/various/dev-tools'
 alias workspace='cd $WORKSPACE_PATH'
-alias filesandroid='cd $WORKSPACE_PATH/android'
-alias filesios='cd $WORKSPACE_PATH/ios'
-alias filesvarious='cd $WORKSPACE_PATH/various'
-alias filesnodejs='cd $WORKSPACE_PATH/nodejs'
-alias filesreactjs='cd $WORKSPACE_PATH/reactjs'
-alias filespangea='cd $WORKSPACE_PATH/pangea'
-alias wsetup='cd $WORKSPACE_PATH/workstation-setup'
-alias androidFiles='cd $WORKSPACE_PATH/android'
+alias configos='cd $WORKSPACE_PATH/config-os'
 alias reactjs='cd $WORKSPACE_PATH/reactjs'
+alias nodejs='cd $WORKSPACE_PATH/nodejs'
+alias pangea='cd $WORKSPACE_PATH/pangea'
+alias android='cd $WORKSPACE_PATH/android'
+alias android-scratch='cd $WORKSPACE_PATH/android/scratch-android'
+alias clean-android-arch='cd $WORKSPACE_PATH/android/clean-android-arch'
+alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
+alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
 
 
 #git
@@ -62,8 +61,8 @@ alias gpushtags='git push origin :refs/tags'
 #ssh
 alias deleteAllSSHKeys='ssh-add -D'
 alias showAllSSHKeys='ssh-add -l'
-alias addpersonalsshkey='ssh-add ~/.ssh/id_rsa_personal-github'
-alias addpangeasshkey='ssh-add ~/.ssh/id_rsa_pangea-github'
+alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
+alias addpangeasshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_pangea'
 
 
 WORKSPACE_PATH="/Users/bhavik/Documents/workspace"
