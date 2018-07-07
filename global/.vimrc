@@ -5,7 +5,15 @@ set nocompatible
 filetype off
 
 " TODO: Load plugins here (pathogen or vundle)
-
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'flazz/vim-colorschemes'
+call vundle#end()
+filetype plugin indent on
 " Turn on syntax highlighting
 syntax on
 
@@ -98,3 +106,7 @@ let g:solarized_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
 " colorscheme solarized
+
+let g:tmuxline_preset = 'full'
+
+au VimEnter *  NERDTree
