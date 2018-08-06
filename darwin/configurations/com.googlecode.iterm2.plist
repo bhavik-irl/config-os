@@ -89,15 +89,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1440 878 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-<<<<<<< HEAD
-	<string>343 436 796 473 0 0 1920 1058 </string>
-	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1918 1058 0 0 1920 1058 </string>
-=======
 	<string>890 421 918 452 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>45 0 937 1058 0 0 1920 1058 </string>
->>>>>>> 394dd0b00d9bfa1f477315094778a0810cf17405
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>72 315 685 552 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1691,11 +1685,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-<<<<<<< HEAD
-	<date>2018-07-16T13:08:45Z</date>
-=======
 	<date>2018-07-28T02:21:06Z</date>
->>>>>>> 394dd0b00d9bfa1f477315094778a0810cf17405
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
