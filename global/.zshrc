@@ -9,6 +9,8 @@ export PATH_TO_CONFIG_OS=~/Documents/workspace/config-os
 export PATH_TO_LINUX_CONFIG_FILES=$PATH_TO_CONFIG_OS/linux
 export PATH_TO_DARWIN_CONFIG_FILES=$PATH_TO_CONFIG_OS/darwin
 
+export WORKSPACE_PATH=$HOME/Documents/workspace
+
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
     . $PATH_TO_LINUX_CONFIG_FILES/linux-commands

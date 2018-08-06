@@ -64,12 +64,7 @@ alias showAllSSHKeys='ssh-add -l'
 alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
 alias addpangeasshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_pangea'
 
-
-WORKSPACE_PATH="~/Documents/workspace"
-
 alias zshconfig="vim ~/.zprofile"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-
-
 
 . ~/.workenv
