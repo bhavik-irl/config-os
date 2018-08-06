@@ -12,6 +12,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'edkolev/tmuxline.vim'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-surround'
 call vundle#end()
 filetype plugin indent on
 " Turn on syntax highlighting
