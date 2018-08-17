@@ -2,7 +2,8 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install apps using cask
-brew cask install zsh
+brew install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew cask install alfred
 brew cask install android-studio 
 brew cask install appcleaner
