@@ -8,5 +8,6 @@ ln -sf /home/bhavik/Documents/workspace/config-os/linux/configurations/xfce4/ ~/
 ln -sf $(pwd)configurations/compton.conf ~/.config/compton.conf
 ln -sf $(pwd)configurations/.xbindkeysrc ~/
 ln -sf $(pwd)/.themes ~/.themes
+ln -sf $(pwd)/.fonts ~/.fonts
 
 xbindkeys
