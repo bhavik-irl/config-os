@@ -7,7 +7,7 @@
   <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_NORMAL"/>
   <property name="last-statusbar-visible" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_SMALLER"/>
-  <property name="last-details-view-column-widths" type="string" value="50,113,50,50,561,50,50,54,58"/>
+  <property name="last-details-view-column-widths" type="string" value="50,113,50,50,475,50,50,60,138"/>
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-window-maximized" type="bool" value="false"/>

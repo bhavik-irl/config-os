@@ -3,11 +3,15 @@ sudo apt upgrade
 
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo add-apt-repository ppa:papirus/papirus
+
+
 
 sudo apt update
 sudo apt upgrade
 
-sudo apt-get install -y unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted oracle-java8-installer
+sudo apt-get install -y unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted oracle-java8-installer
+
 
 sudo adduser bhavik kvm
 
