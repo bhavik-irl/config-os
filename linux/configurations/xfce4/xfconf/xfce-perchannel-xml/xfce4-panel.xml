@@ -13,7 +13,7 @@
         <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
-      <property name="background-alpha" type="uint" value="100"/>
+      <property name="background-alpha" type="uint" value="67"/>
       <property name="size" type="uint" value="26"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="span-monitors" type="bool" value="false"/>
