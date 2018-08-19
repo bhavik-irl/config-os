@@ -1,6 +1,6 @@
-delay=1
+delay=0
 region=2
-action=5
+action=1
 show_mouse=0
 screenshot_dir=file:///home/bhavik/Pictures
 app=ristretto
