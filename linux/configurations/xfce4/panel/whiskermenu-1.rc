@@ -1,4 +1,4 @@
-favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,simplenote_simplenote.desktop,vscode_vscode.desktop,jetbrains-studio.desktop,jetbrains-idea-ce.desktop,slack_slack.desktop,timeshift-gtk.desktop,gparted.desktop,calibre-gui.desktop,spotify_spotify.desktop,brave_brave.desktop,chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop,chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop
+favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,simplenote_simplenote.desktop,vscode_vscode.desktop,jetbrains-studio.desktop,jetbrains-idea-ce.desktop,slack_slack.desktop,calibre-gui.desktop,spotify_spotify.desktop
 recent=exo-terminal-emulator.desktop,exo-file-manager.desktop,jetbrains-studio.desktop,google-chrome.desktop,org.gnome.Software.desktop,virtualbox.desktop,rxvt-unicode.desktop,notes_notes.desktop,globaltime.desktop,org.kde.knotes.desktop
 button-title=Applications Menu
 button-icon=/home/bhavik/Pictures/linux-icon.png
@@ -19,8 +19,8 @@ display-recent-default=false
 position-search-alternate=true
 position-commands-alternate=false
 position-categories-alternate=false
-menu-width=337
-menu-height=600
+menu-width=338
+menu-height=606
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
