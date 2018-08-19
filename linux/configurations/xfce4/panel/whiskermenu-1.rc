@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,vscode_vscode.desktop,jetbrains-studio.desktop,jetbrains-idea-ce.desktop,slack_slack.desktop,calibre-gui.desktop,spotify_spotify.desktop,simplenote.desktop
-recent=exo-terminal-emulator.desktop,calibre-gui.desktop,exo-file-manager.desktop,jetbrains-idea-ce.desktop,vscode_vscode.desktop,telegram-desktop_telegramdesktop.desktop,simplenote.desktop,google-chrome.desktop,spotify_spotify.desktop,slack_slack.desktop
+recent=calibre-gui.desktop,exo-terminal-emulator.desktop,exo-file-manager.desktop,jetbrains-idea-ce.desktop,vscode_vscode.desktop,telegram-desktop_telegramdesktop.desktop,simplenote.desktop,google-chrome.desktop,spotify_spotify.desktop,slack_slack.desktop
 button-title=Applications Menu
 button-icon=/home/bhavik/Pictures/linux-icon.png
 button-single-row=false
