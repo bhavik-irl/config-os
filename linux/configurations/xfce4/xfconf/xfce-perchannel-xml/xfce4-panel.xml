@@ -11,6 +11,7 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="11"/>
+        <value type="int" value="4"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-alpha" type="uint" value="67"/>
@@ -47,6 +48,9 @@
     <property name="plugin-11" type="string" value="clock">
       <property name="digital-format" type="string" value="%I:%M %p"/>
       <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-4" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

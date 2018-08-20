@@ -1,5 +1,5 @@
-favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,vscode_vscode.desktop,jetbrains-studio.desktop,jetbrains-idea-ce.desktop,slack_slack.desktop,calibre-gui.desktop,spotify_spotify.desktop,simplenote.desktop
-recent=exo-terminal-emulator.desktop,timeshift-gtk.desktop,update-manager.desktop,google-chrome.desktop,xfce-settings-manager.desktop,vscode_vscode.desktop,exo-file-manager.desktop,calibre-gui.desktop,jetbrains-idea-ce.desktop,telegram-desktop_telegramdesktop.desktop
+favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,vscode_vscode.desktop,calibre-gui.desktop,steam.desktop
+recent=google-chrome.desktop,ukuu.desktop,xpad.desktop,blueman-manager.desktop,blueman-adapters.desktop,steam.desktop,exo-terminal-emulator.desktop,xfce-session-settings.desktop,gparted.desktop,org.gnome.Software.desktop
 button-title=Applications Menu
 button-icon=/home/bhavik/Pictures/e93b4f1a59a3b46f6711ffda96627bd0_icon.png
 button-single-row=false
