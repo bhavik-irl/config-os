@@ -79,6 +79,9 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;r" type="string" value="xfrun4">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="Super_L" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">

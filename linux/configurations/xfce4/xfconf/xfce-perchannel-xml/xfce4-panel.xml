@@ -10,8 +10,10 @@
         <value type="int" value="1"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
-        <value type="int" value="11"/>
         <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="11"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-alpha" type="uint" value="67"/>
@@ -51,6 +53,21 @@
     </property>
     <property name="plugin-4" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="spotify"/>
+    </property>
+    <property name="plugin-6" type="string" value="indicator">
+      <property name="known-indicators" type="array">
+        <value type="string" value="com.canonical.indicator.messages"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="network"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="google-chrome-stable"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="update-notifier"/>
+      </property>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

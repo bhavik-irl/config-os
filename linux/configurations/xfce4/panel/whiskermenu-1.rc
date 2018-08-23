@@ -1,7 +1,7 @@
-favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,vscode_vscode.desktop,calibre-gui.desktop,steam.desktop
-recent=google-chrome.desktop,ukuu.desktop,xpad.desktop,blueman-manager.desktop,blueman-adapters.desktop,steam.desktop,exo-terminal-emulator.desktop,xfce-session-settings.desktop,gparted.desktop,org.gnome.Software.desktop
+favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,calibre-gui.desktop,simplenote.desktop,code.desktop,jetbrains-idea-ce.desktop,jetbrains-studio.desktop
+recent=exo-terminal-emulator.desktop,jetbrains-studio.desktop,simplenote.desktop,calibre-gui.desktop,google-chrome.desktop,code.desktop,xfce-settings-manager.desktop,xfce-session-settings.desktop,chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop,xfce4-settings-editor.desktop
 button-title=Applications Menu
-button-icon=/home/bhavik/Pictures/e93b4f1a59a3b46f6711ffda96627bd0_icon.png
+button-icon=chrome-app-list
 button-single-row=false
 show-button-title=false
 show-button-icon=true
