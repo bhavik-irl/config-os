@@ -1,9 +1,4 @@
-# Install Brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install apps using cask
-brew install zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew cask install alfred
 brew cask install android-studio 
 brew cask install appcleaner
@@ -30,9 +25,11 @@ brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install gimp
 
-
-# Giphy capture
-# wunderlist
-# trello
-# BetterSnapTool
-# Amphetamine
+Echo "
+Install Following From App Store Manually:
+- Giphy capture
+- wunderlist
+- trello
+- BetterSnapTool
+- Amphetamine
+"
