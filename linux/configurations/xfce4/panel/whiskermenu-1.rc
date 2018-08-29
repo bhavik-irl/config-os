@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,calibre-gui.desktop,simplenote.desktop,code.desktop,jetbrains-idea-ce.desktop,jetbrains-studio.desktop
-recent=exo-terminal-emulator.desktop,google-chrome.desktop,jetbrains-studio.desktop,simplenote.desktop,calibre-gui.desktop,code.desktop,xfce-settings-manager.desktop,xfce-session-settings.desktop,chrome-knipolnnllmklapflnccelgolnpehhpl-Default.desktop,xfce4-settings-editor.desktop
+recent=exo-terminal-emulator.desktop,xfce-keyboard-settings.desktop,google-chrome.desktop,spotify.desktop,jetbrains-studio.desktop,slack.desktop,code.desktop,calibre-gui.desktop,simplenote.desktop,xfce-settings-manager.desktop
 button-title=Applications Menu
 button-icon=chrome-app-list
 button-single-row=false

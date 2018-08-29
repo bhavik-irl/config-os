@@ -55,9 +55,6 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;2" type="string" value="google-chrome --profile-directory=&apos;Profile 1&apos;"/>
-      <property name="&lt;Super&gt;3" type="string" value="google-chrome --profile-directory=&apos;Profile 2&apos;">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Super&gt;4" type="string" value="simplenote">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
@@ -80,6 +77,9 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="Super_L" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Super&gt;3" type="string" value="google-chrome --profile-directory=&apos;Profile 3&apos;">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
     </property>

@@ -65,8 +65,10 @@
         <value type="string" value="network"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="google-chrome-stable"/>
+        <value type="string" value="slack"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="update-notifier"/>
+        <value type="string" value="google-chrome"/>
       </property>
     </property>
   </property>
