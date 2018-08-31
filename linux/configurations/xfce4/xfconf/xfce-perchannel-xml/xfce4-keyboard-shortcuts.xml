@@ -82,6 +82,7 @@
       <property name="&lt;Super&gt;3" type="string" value="google-chrome --profile-directory=&apos;Profile 3&apos;">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;6" type="string" value="blueman-manager"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
