@@ -11,3 +11,6 @@ echo "\n\n"
 
 git config --global user.email "bhavik@email.com"
 git config --global user.name "bhavik"
+
+#bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/new-structure/linux-preinstall.sh)
+#bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/new-structure/linux-install.sh)
