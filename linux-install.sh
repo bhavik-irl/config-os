@@ -26,6 +26,9 @@ sudo adduser bhavik kvm
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh && chsh -s $(which zsh)
 
+cd ~/Documents/workspace
+git clone git@github.com:bp1235811/config-os.git
+
 cd ~/Documents/workspace/config-os && ./linux-setup.sh 
 
 cd ~/Documents/workspace/android

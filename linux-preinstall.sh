@@ -9,9 +9,5 @@ echo "\nAdd this key to work Github Account:\n"
 cat ~/.ssh/id_rsa_work.pub
 echo "\n\n"
 
-#Download configos rep
-cd
-cd Documents
-mkdir workspace
-cd workspace
-git clone git@github.com:bp1235811/config-os.git
+git config --global user.email "bhavik@email.com"
+git config --global user.name "bhavik"
