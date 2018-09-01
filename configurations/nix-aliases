@@ -15,7 +15,7 @@ alias workspace='cd $WORKSPACE_PATH'
 alias configos='cd $WORKSPACE_PATH/config-os'
 alias reactjs='cd $WORKSPACE_PATH/reactjs'
 alias nodejs='cd $WORKSPACE_PATH/nodejs'
-alias pangea='cd $WORKSPACE_PATH/pangea'
+alias work='cd $WORKSPACE_PATH/work'
 alias android='cd $WORKSPACE_PATH/android'
 alias android-scratch='cd $WORKSPACE_PATH/android/scratch-android'
 alias clean-android-arch='cd $WORKSPACE_PATH/android/clean-android-arch'
@@ -63,7 +63,7 @@ alias gpushtags='git push origin :refs/tags'
 alias deleteAllSSHKeys='ssh-add -D'
 alias showAllSSHKeys='ssh-add -l'
 alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
-alias addpangeasshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_pangea'
+alias addworksshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_work'
 
 alias zshconfig="vim ~/.zprofile"
 alias ohmyzsh="vim ~/.oh-my-zsh"
