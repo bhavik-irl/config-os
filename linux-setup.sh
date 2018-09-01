@@ -12,3 +12,4 @@ ln -sf $LINUX_WORKSPACE/.themes ~/.themes
 ln -sf $LINUX_WORKSPACE/.fonts ~/.fonts
 
 touch ~/.workenv
+echo . ~/.workenv >> .profile
