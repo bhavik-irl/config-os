@@ -1,0 +1,70 @@
+#unix commands
+alias ll='ls -la'
+alias ..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+alias edit='vim'
+alias c='clear'
+
+#files navigation
+alias workspace='cd $WORKSPACE_PATH'
+alias configos='cd $WORKSPACE_PATH/config-os'
+alias reactjs='cd $WORKSPACE_PATH/reactjs'
+alias nodejs='cd $WORKSPACE_PATH/nodejs'
+alias pangea='cd $WORKSPACE_PATH/pangea'
+alias android='cd $WORKSPACE_PATH/android'
+alias android-scratch='cd $WORKSPACE_PATH/android/scratch-android'
+alias clean-android-arch='cd $WORKSPACE_PATH/android/clean-android-arch'
+alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
+alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
+
+
+#git
+alias gstatus='git status'
+alias gaddem='git add .'
+alias gadd='git add'
+alias grm='git rm'
+alias gcommit='git commit -am'
+alias gpush='git push'
+alias gpull='git pull'
+alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
+alias ghistorypretty='git log --pretty=oneline'
+alias glog='git log'
+alias ginit='git init'
+alias gclone='git clone'
+alias gconfig='git config --list'
+alias gconfigname='git config --global user.name "bhavik"'
+alias gconfigemail='git config --global user.name "bhavik@email.com"'
+alias gdiff='git diff'
+alias grevert='git reset --hard'
+alias gfetch='git fetch origin'
+alias gbranch='git branch'
+alias gbranches='git branch -a'
+alias gcoutbranch='git checkout -b'
+
+#git tag tagName
+alias gcreatetag='git tag'
+
+#push all tags to remote
+alias gpushalltags='git push --tags'
+
+#git tag -d tagNameToDelete
+alias gdeletetag='git tag -d'
+
+#git push origin :refs/tags/tagName
+alias gpushtags='git push origin :refs/tags'
+
+#ssh
+alias deleteAllSSHKeys='ssh-add -D'
+alias showAllSSHKeys='ssh-add -l'
+alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
+alias addpangeasshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_pangea'
+
+alias zshconfig="vim ~/.zprofile"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+
+. ~/.workenv
