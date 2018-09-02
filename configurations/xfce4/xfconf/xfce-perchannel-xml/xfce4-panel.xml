@@ -59,9 +59,14 @@
       <property name="known-indicators" type="array">
         <value type="string" value="com.canonical.indicator.messages"/>
       </property>
+      <property name="align-left" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="mode-whitelist" type="bool" value="false"/>
     </property>
     <property name="plugin-7" type="string" value="systray">
       <property name="names-visible" type="array">
+      </property>
+      <property name="names-hidden" type="array">
         <value type="string" value="network"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="google-chrome-stable"/>
@@ -70,6 +75,8 @@
         <value type="string" value="update-notifier"/>
         <value type="string" value="google-chrome"/>
       </property>
+      <property name="size-max" type="uint" value="19"/>
+      <property name="show-frame" type="bool" value="false"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

@@ -83,6 +83,8 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;6" type="string" value="blueman-manager"/>
+      <property name="&lt;Shift&gt;exclam" type="string" value=" bt-device -d 75:05:08:16:58:86
+"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
