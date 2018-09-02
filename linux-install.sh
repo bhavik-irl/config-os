@@ -1,5 +1,5 @@
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 
 #Create Directories
 cd ~/Documents/workspace
@@ -11,8 +11,8 @@ sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
 
 #Update Repos
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 
 #Install 
 sudo apt-get install -y unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted gnome-shell-extensions chrome-gnome-shell 
