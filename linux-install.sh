@@ -24,7 +24,7 @@ sudo apt-get install -y oracle-java8-installer
 sudo adduser bhavik kvm
 # sudo chown -R $USER /usr/local --only if needed for nodejs
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh && chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 cd ~/Documents/workspace
 git clone git@github.com:bp1235811/config-os.git
