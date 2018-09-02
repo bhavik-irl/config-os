@@ -2,9 +2,9 @@ sudo apt update -y
 sudo apt upgrade -y
 
 #Create Directories
-cd ~/Documents
-mkdir workspace
-cd workspace
+
+mkdir ~/Documents/workspace
+cd ~/Documents/workspace
 mkdir nodejs reactjs android
 
 #Add Repositories
