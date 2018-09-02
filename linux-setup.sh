@@ -2,7 +2,7 @@ export LINUX_WORKSPACE=/home/bhavik/Documents/workspace/config-os
 export LINUX_CONFIGS=$LINUX_WORKSPACE/configurations
 
 #mkdir ~/i3/
-#ln -sf $PATH_TO_WORKSPACE_ON_LINUX/configurations/i3config ~/.config/i3/.config
+ln -sf $LINUX_CONFIGS/i3config ~/.config/i3/config
 rm -rf ~/.config/xfce4
 ln -sf $LINUX_CONFIGS/xfce4 ~/.config/xfce4
 ln -sf $LINUX_CONFIGS/compton.conf ~/.config/compton.conf
