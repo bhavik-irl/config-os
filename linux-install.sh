@@ -17,7 +17,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 #Install 
-sudo apt-get install -y unzip htop curl wget build-essential git vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted gnome-shell-extensions chrome-gnome-shell 
+sudo apt-get install -y unzip htop curl wget build-essential cmake git gimp vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted gnome-shell-extensions chrome-gnome-shell 
 
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
@@ -45,3 +45,20 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
+
+echo "
+
+Do NOT Install using Snapps
+
+Install Following From App Store Manually:
+- Google Chrome (https://www.google.com/chrome/)
+- Dropbox (https://www.dropbox.com/install)
+- Spotify (http://repository.spotify.com/pool/non-free/s/)
+- Simple Note (https://simplenote.com/)
+- VLC (https://www.videolan.org/vlc/#download)
+- Slack (https://slack.com/downloads/linux)
+- virtualbox (https://www.virtualbox.org/wiki/Linux_Downloads)
+- VS Code (https://code.visualstudio.com)
+- Android Studio (https://dl.google.com/dl/android/studio/ide-zips/3.1.4.0/android-studio-ide-173.4907809-linux.zip)
+- Intellij Idea (https://www.jetbrains.com/idea/download/#section=linux)
+"
