@@ -83,7 +83,7 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Super&gt;6" type="string" value="blueman-manager"/>
-      <property name="&lt;Super&gt;F12" type="string" value="bt-device -d 75:05:08:16:58:86 &amp;&amp; systemctl suspend"/>
+      <property name="&lt;Super&gt;F12" type="string" value="/home/bhavik/Documents/workspace/config-os/linux-suspend.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
