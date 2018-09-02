@@ -2,8 +2,10 @@ sudo apt update -y
 sudo apt upgrade -y
 
 #Create Directories
-cd ~/Documents/workspace
-cd mkdir nodejs reactjs android
+cd ~/Documents
+mkdir workspace
+cd workspace
+mkdir nodejs reactjs android
 
 #Add Repositories
 sudo add-apt-repository -y ppa:webupd8team/java
