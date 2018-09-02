@@ -1,4 +1,5 @@
 #GENERATE SSH KEY and ADD IT TO GITHUB
+sudo apt update
 sudo apt install curl
 
 ssh-keygen -t rsa -C "bp1235811@gmail.com" -f /home/bhavik/.ssh/id_rsa_personal -q -N ""
