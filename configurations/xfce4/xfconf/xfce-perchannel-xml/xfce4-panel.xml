@@ -15,7 +15,7 @@
         <value type="int" value="7"/>
         <value type="int" value="11"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-alpha" type="uint" value="67"/>
       <property name="size" type="uint" value="26"/>
       <property name="length-adjust" type="bool" value="false"/>
@@ -65,6 +65,8 @@
     </property>
     <property name="plugin-7" type="string" value="systray">
       <property name="names-visible" type="array">
+        <value type="string" value="gpick"/>
+        <value type="string" value="notes"/>
       </property>
       <property name="names-hidden" type="array">
         <value type="string" value="network"/>
