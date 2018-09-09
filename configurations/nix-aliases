@@ -22,6 +22,9 @@ alias clean-android-arch='cd $WORKSPACE_PATH/android/clean-android-arch'
 alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
 alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
 
+#Open Projects
+alias opennodejsscratch='code $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
+alias openreactjsscratch='code $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
 
 #git
 alias gstatus='git status'
