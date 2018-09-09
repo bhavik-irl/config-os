@@ -25,6 +25,8 @@ alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
 #Open Projects
 alias opennodejsscratch='code $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
 alias openreactjsscratch='code $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
+alias nodecourse='google-chrome --profile-directory="Profile 1" https://codewithmosh.com/courses/enrolled/293204'
+alias reactcourse='google-chrome --profile-directory="Profile 1" https://codewithmosh.com/courses/enrolled/357787'
 
 #git
 alias gstatus='git status'
