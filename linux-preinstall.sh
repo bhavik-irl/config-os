@@ -18,6 +18,3 @@ ssh-add ~/.ssh/id_rsa_work
 
 git config --global user.email "bhavik@email.com"
 git config --global user.name "bhavik"
-
-#bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/master/linux-preinstall.sh)
-#bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/master/linux-install.sh)

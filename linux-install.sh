@@ -1,22 +1,21 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-#Create Directories
-
+# Create Directories
 mkdir ~/Documents/workspace
 cd ~/Documents/workspace
 mkdir nodejs reactjs android
 
-#Add Repositories
+# Add Repositories
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
 
-#Update Repos
+# Update Repos
 sudo apt update -y
 sudo apt upgrade -y
 
-#Install 
+# Install 
 sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp vim zsh nodejs npm calibre gnome-tweak-tool tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad compton timeshift dmenu gparted gnome-shell-extensions chrome-gnome-shell 
 
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
@@ -32,8 +31,6 @@ chsh -s $(which zsh)
 cd ~/Documents/workspace
 git clone git@github.com:bp1235811/config-os.git
 
-cd ~/Documents/workspace/config-os && ./linux-setup.sh 
-
 cd ~/Documents/workspace/android
 git clone git@github.com:n26/N26AndroidSamples.git
 git clone https://github.com/hitherejoe/GithubTrending.git
@@ -46,10 +43,7 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
-echo "
-
-Do NOT Install using Snapps
-
+echo "Do NOT Install using Snapps\n\n
 Install Following From App Store Manually:
 - Google Chrome (https://www.google.com/chrome/)
 - Dropbox (https://www.dropbox.com/install)
@@ -62,3 +56,19 @@ Install Following From App Store Manually:
 - Android Studio (https://dl.google.com/dl/android/studio/ide-zips/3.1.4.0/android-studio-ide-173.4907809-linux.zip)
 - Intellij Idea (https://www.jetbrains.com/idea/download/#section=linux)
 "
+
+echo "\n\n"
+
+# Linux Configuration
+export WORKSPACE=/home/bhavik/Documents/workspace/config-os
+export CONFIGS=$WORKSPACE/configurations
+
+ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
+ln -sf $CONFIGS/.zshrc ~/.zshrc
+ln -sf $CONFIGS/.vimrc ~/.vimrc
+ln -sf $WORKSPACE/.themes ~/.themes
+ln -sf $WORKSPACE/.fonts ~/.fonts
+
+cd 
+touch ~/.workenv
+echo . ~/.workenv >> ~/.profile
