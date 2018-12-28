@@ -55,6 +55,7 @@ Install Following From App Store Manually:
 - VS Code (https://code.visualstudio.com)
 - Android Studio (https://dl.google.com/dl/android/studio/ide-zips/3.1.4.0/android-studio-ide-173.4907809-linux.zip)
 - Intellij Idea (https://www.jetbrains.com/idea/download/#section=linux)
+- Flameshot (https://github.com/lupoDharkael/flameshot)
 "
 
 echo "\n\n"
