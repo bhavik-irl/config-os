@@ -43,19 +43,28 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
-echo "Do NOT Install using Snapps\n\n
-Install Following From App Store Manually:
-- Google Chrome (https://www.google.com/chrome/)
-- Dropbox (https://www.dropbox.com/install)
-- Spotify (http://repository.spotify.com/pool/non-free/s/)
-- Simple Note (https://simplenote.com/)
-- VLC (https://www.videolan.org/vlc/#download)
-- Slack (https://slack.com/downloads/linux)
-- virtualbox (https://www.virtualbox.org/wiki/Linux_Downloads)
-- VS Code (https://code.visualstudio.com)
-- Android Studio (https://dl.google.com/dl/android/studio/ide-zips/3.1.4.0/android-studio-ide-173.4907809-linux.zip)
-- Intellij Idea (https://www.jetbrains.com/idea/download/#section=linux)
-- Flameshot (https://github.com/lupoDharkael/flameshot)
+echo "Apps
+- Google Chrome
+- Dropbox
+- Spotify
+- Simple Note
+- Slack
+- virtualbox
+"
+
+echo "Development IDE & Code editors
+- Android Studio
+- Intellij Idea 
+- VS Code
+"
+
+echo "Image/Design Apps
+- Flameshot | Screenshot Tool 
+- Gpick | Color Picker
+- Gimp
+- Krita
+- Inkscape
+- Darktable
 "
 
 echo "\n\n"
