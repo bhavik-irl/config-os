@@ -65,6 +65,7 @@ echo "Image/Design Apps
 - Krita
 - Inkscape
 - Darktable
+- Peek
 "
 
 echo "\n\n"
