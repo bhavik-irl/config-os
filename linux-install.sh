@@ -43,6 +43,8 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
+sudo apt install steam-devices
+
 echo "Apps
 - Google Chrome
 - Dropbox
