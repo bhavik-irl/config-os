@@ -15,7 +15,6 @@
         <value type="int" value="6"/>
         <value type="int" value="7"/>
         <value type="int" value="8"/>
-        <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
@@ -71,6 +70,8 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-1640"/>
+        <value type="string" value="dropbox-client-1672"/>
         <value type="string" value="dropbox-client-10618"/>
         <value type="string" value="dropbox-client-8838"/>
         <value type="string" value="Slack1"/>
@@ -82,12 +83,11 @@
         <value type="string" value="nm-applet"/>
       </property>
     </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="parole"/>
+      <property name="mpris-players" type="string" value="parole;spotify"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">

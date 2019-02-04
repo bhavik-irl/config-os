@@ -32,8 +32,8 @@
       <property name="monitorHDMI-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/home/bhavik/Documents/workspace/config-os/wallpapers/circle-black-minimalism-4k-hm-1920x1080.jpg"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/bhavik/Documents/workspace/config-os/wallpapers/pexels-photo-1031641.jpeg"/>
         </property>
       </property>
     </property>

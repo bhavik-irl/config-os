@@ -1,6 +1,8 @@
 export WORKSPACE=/home/bhavik/Documents/workspace/config-os
 export CONFIGS=$WORKSPACE/configurations
 
+rm -rf ~/.config/xfce4
+
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
 ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $CONFIGS/.vimrc ~/.vimrc
