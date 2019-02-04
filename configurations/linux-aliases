@@ -46,4 +46,7 @@ extract() {
      fi 
 }
 
+#various
+alias cpuFrequencyMonitor='watch -n1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'
+
 #xbindkeys
