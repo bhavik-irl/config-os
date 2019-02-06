@@ -48,5 +48,6 @@ extract() {
 
 #various
 alias cpuFrequencyMonitor='watch -n1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'
+alias startup='/home/bhavik/Documents/workspace/config-os/linux-startup.sh'
 
 #xbindkeys
