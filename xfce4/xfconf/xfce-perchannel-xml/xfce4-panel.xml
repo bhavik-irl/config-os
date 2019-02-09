@@ -70,6 +70,12 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-2735"/>
+        <value type="string" value="dropbox-client-1644"/>
+        <value type="string" value="dropbox-client-1748"/>
+        <value type="string" value="dropbox-client-1637"/>
+        <value type="string" value="dropbox-client-11099"/>
+        <value type="string" value="dropbox-client-1872"/>
         <value type="string" value="dropbox-client-1385"/>
         <value type="string" value="dropbox-client-1640"/>
         <value type="string" value="dropbox-client-1672"/>

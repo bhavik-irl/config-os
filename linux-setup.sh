@@ -4,6 +4,7 @@ export CONFIGS=$WORKSPACE/configurations
 rm -rf ~/.config/xfce4
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
+ln -sf $CONFIGS/.Xmodmap ~/.Xmodmap
 ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $CONFIGS/.vimrc ~/.vimrc
 ln -sf $WORKSPACE/.themes ~/.themes
