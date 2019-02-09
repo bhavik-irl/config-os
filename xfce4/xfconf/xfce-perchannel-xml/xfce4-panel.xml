@@ -14,7 +14,6 @@
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
-        <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
@@ -46,6 +45,9 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="google-chrome-stable"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="gpick"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="update-notifier"/>
@@ -60,34 +62,6 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-indicators" type="array">
         <value type="string" value="com.canonical.indicator.messages"/>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="statusnotifier">
-      <property name="icon-size" type="uint" value="22"/>
-      <property name="menu-is-primary" type="bool" value="true"/>
-      <property name="mode-whitelist" type="bool" value="false"/>
-      <property name="single-row" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="symbolic-icons" type="bool" value="true"/>
-      <property name="known-items" type="array">
-        <value type="string" value="dropbox-client-2735"/>
-        <value type="string" value="dropbox-client-1644"/>
-        <value type="string" value="dropbox-client-1748"/>
-        <value type="string" value="dropbox-client-1637"/>
-        <value type="string" value="dropbox-client-11099"/>
-        <value type="string" value="dropbox-client-1872"/>
-        <value type="string" value="dropbox-client-1385"/>
-        <value type="string" value="dropbox-client-1640"/>
-        <value type="string" value="dropbox-client-1672"/>
-        <value type="string" value="dropbox-client-10618"/>
-        <value type="string" value="dropbox-client-8838"/>
-        <value type="string" value="Slack1"/>
-        <value type="string" value="dropbox-client-1630"/>
-        <value type="string" value="dropbox-client-12172"/>
-        <value type="string" value="chrome_app_indicator_2"/>
-        <value type="string" value="chrome_app_indicator_1"/>
-        <value type="string" value="blueman"/>
-        <value type="string" value="nm-applet"/>
       </property>
     </property>
     <property name="plugin-10" type="string" value="pulseaudio">

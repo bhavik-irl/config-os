@@ -1,5 +1,5 @@
 favorites=google-chrome.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop,jetbrains-studio.desktop,code.desktop,slack.desktop,spotify_spotify.desktop,appimagekit-bitwarden.desktop,appimagekit-simplenote.desktop,chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop,chrome-ojcflmmmcfpacggndoaaflkmcoblhnbh-Default.desktop,calibre-gui.desktop,timeshift-gtk.desktop
-recent=org.gnome.DiskUtility.desktop,google-chrome.desktop,exo-file-manager.desktop,code.desktop,timeshift-gtk.desktop,gparted.desktop,xfce4-power-manager-settings.desktop,exo-terminal-emulator.desktop,slack.desktop,appimagekit-simplenote.desktop
+recent=google-chrome.desktop,exo-file-manager.desktop,org.gnome.DiskUtility.desktop,code.desktop,timeshift-gtk.desktop,gparted.desktop,xfce4-power-manager-settings.desktop,exo-terminal-emulator.desktop,slack.desktop,appimagekit-simplenote.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
