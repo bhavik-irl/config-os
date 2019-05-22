@@ -19,6 +19,8 @@ alias gi3="gedit ~/.config/i3/config"
 alias gcompton="gedit ~/.config/compton.conf"
 alias xwin="xwininfo " 
 
+alias mergeAllPDFInThisDirectory="pdftk *.pdf cat output outputfile.pdf"
+
 #java
 #export JAVA_HOME=/usr/local/jdk-1.8.0
 #export PATH=$JAVA_HOME/bin:$PATH:
