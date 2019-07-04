@@ -16,10 +16,14 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
+<<<<<<< HEAD
 sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp zsh flameshot calibre gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted 
 #Gnome Specific
 sudo apt-get install gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool pdftk
 
+=======
+sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp zsh nodejs npm flameshot calibre gnome-tweak-tool gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions chrome-gnome-shell pdftk
+>>>>>>> a390f87c93fcd82840bc0b50f44c5910fd900750
 
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
@@ -82,6 +86,7 @@ export CONFIGS=$WORKSPACE/configurations
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
 ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $CONFIGS/.vimrc ~/.vimrc
+ln -sf $CONFIGS/compton.conf ~/.config/compton.conf
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 
