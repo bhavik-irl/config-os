@@ -16,7 +16,10 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp zsh nodejs npm flameshot calibre gnome-tweak-tool gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions chrome-gnome-shell 
+sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp zsh flameshot calibre gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted 
+#Gnome Specific
+sudo apt-get install gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool pdftk
+
 
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
