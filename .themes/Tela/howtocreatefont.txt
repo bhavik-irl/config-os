@@ -1,0 +1,1 @@
+sudo grub-mkfont Roboto-Light.ttf -n RobotoLight -s 20 -o RobotoLight.pf2 -v
