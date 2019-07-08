@@ -18,7 +18,7 @@ sudo apt upgrade -y
 # Install 
 sudo apt-get install -y unzip htop curl wget gpick build-essential cmake git gimp zsh flameshot calibre gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted 
 #Gnome Specific
-sudo apt-get install gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool pdftk
+#sudo apt-get install gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool pdftk
 
 echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
@@ -26,7 +26,6 @@ sudo apt-get install -y oracle-java8-installer
 #Various 
 sudo adduser bhavik kvm
 # sudo chown -R $USER /usr/local --only if needed for nodejs
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s $(which zsh)
 
