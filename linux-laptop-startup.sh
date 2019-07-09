@@ -6,3 +6,4 @@ synclient VertScrollDelta=-58
 synclient HorizScrollDelta=-58
 compton
 xmodmap ~/.Xmodmap
+#sudo vi /etc/default/keyboard  ADD-> XKBOPTIONS="ctrl:nocaps"
