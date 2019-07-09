@@ -63,6 +63,10 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-1933"/>
+        <value type="string" value="dropbox-client-1854"/>
+        <value type="string" value="dropbox-client-13179"/>
+        <value type="string" value="dropbox-client-12302"/>
         <value type="string" value="dropbox-client-10335"/>
         <value type="string" value="dropbox-client-4331"/>
         <value type="string" value="dropbox-client-19144"/>
@@ -120,7 +124,7 @@
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
-      <property name="digital-format" type="string" value="%m/%d/%y |%I:%M %p"/>
+      <property name="digital-format" type="string" value="%m/%d/%y |%I:%M %p "/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
