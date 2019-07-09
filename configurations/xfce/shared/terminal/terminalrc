@@ -1,13 +1,13 @@
 [Configuration]
 ColorForeground=#b7b7b7
-ColorBackground=#131926
+ColorBackground=#242424242424
 ColorCursor=#0f4999
 ColorSelection=#163b59
 ColorSelectionUseDefault=FALSE
 ColorBold=#ffffff
 ColorBoldUseDefault=FALSE
-ColorPalette=#000000;#aa0000;#44aa44;#aa5500;#0039aa;#aa22aa;#1a92aa;#aaaaaa;#777777;#ff8787;#4ce64c;#ded82c;#295fcc;#cc58cc;#4ccce6;#ffffff
-FontName=Inconsolata 16
+ColorPalette=rgb(255,163,0);rgb(170,0,0);rgb(68,170,68);rgb(170,85,0);rgb(0,57,170);rgb(170,34,170);rgb(26,146,170);rgb(170,170,170);rgb(119,119,119);rgb(255,229,12);rgb(76,230,76);rgb(207,132,21);rgb(168,96,7);rgb(204,88,204);rgb(171,50,101);rgb(255,255,255)
+FontName=Inconsolata 15
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBellUrgent=FALSE

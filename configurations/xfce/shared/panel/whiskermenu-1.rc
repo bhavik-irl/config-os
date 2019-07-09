@@ -1,5 +1,5 @@
-favorites=exo-file-manager.desktop,google-chrome.desktop,firefox.desktop,exo-terminal-emulator.desktop,spotify_spotify.desktop,code.desktop,appimagekit-bitwarden.desktop,appimagekit-simplenote.desktop,jetbrains-studio.desktop,xpad.desktop
-recent=exo-terminal-emulator.desktop,google-chrome.desktop,appimagekit-simplenote.desktop,exo-file-manager.desktop,appimagekit-bitwarden.desktop,xpad.desktop,xfce4-power-manager-settings.desktop,firefox.desktop,lightdm-gtk-greeter-settings.desktop,xfce-session-settings.desktop
+favorites=exo-file-manager.desktop,google-chrome.desktop,firefox.desktop,exo-terminal-emulator.desktop,virtualbox.desktop,appimagekit-bitwarden.desktop,code.desktop,grub-customizer.desktop,jetbrains-studio.desktop,jetbrains-webstorm.desktop
+recent=exo-terminal-emulator.desktop,firefox.desktop,appimagekit-simplenote.desktop,exo-file-manager.desktop,google-chrome.desktop,brave-browser.desktop,xfce-settings-manager.desktop,compton.desktop,xfce4-settings-editor.desktop,spotify_spotify.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
