@@ -1,0 +1,12 @@
+shared
+---------------------------------
+thunar: ~/.config/Thunar
+xpad: ~/.config/xpad
+panel: ~/.config/xfce4/panel
+terminal: ~/.config/xfce4/terminal
+
+thunar:  ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+
+xfce4-desktop:  ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+
+panel:  ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xm
