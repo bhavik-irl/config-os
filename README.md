@@ -16,4 +16,4 @@ bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/master/linu
 
 # Linux Post Install 
 ### Pulling config-OS repo and setup 
-bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/master/linux-install.sh)
+bash <(curl -s https://raw.githubusercontent.com/bp1235811/config-os/master/linux-install.sh?token=ACTQTCAXD66HP4P7CYQQXLK5EZ4JQ)
