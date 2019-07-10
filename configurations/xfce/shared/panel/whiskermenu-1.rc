@@ -1,5 +1,5 @@
 favorites=exo-file-manager.desktop,google-chrome.desktop,firefox.desktop,exo-terminal-emulator.desktop,virtualbox.desktop,appimagekit-bitwarden.desktop,code.desktop,grub-customizer.desktop,jetbrains-studio.desktop,jetbrains-webstorm.desktop
-recent=exo-terminal-emulator.desktop,grub-customizer.desktop,virtualbox.desktop,exo-file-manager.desktop,google-chrome.desktop,firefox.desktop,xfce-session-settings.desktop,htop.desktop,vmware-player.desktop,jetbrains-studio.desktop
+recent=exo-terminal-emulator.desktop,google-chrome.desktop,firefox.desktop,exo-file-manager.desktop,appimagekit-balena-etcher-electron.desktop,org.gnome.DiskUtility.desktop,grub-customizer.desktop,virtualbox.desktop,xfce-session-settings.desktop,htop.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
