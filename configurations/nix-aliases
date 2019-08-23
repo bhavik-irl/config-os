@@ -71,5 +71,3 @@ alias addworksshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_work'
 
 alias zshconfig="vim ~/.zprofile"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-
-. ~/.workenv
