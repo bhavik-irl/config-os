@@ -1,0 +1,12 @@
+    [Desktop Entry]
+Version=1.0
+Name=GitEye
+Comment=Git Gui Management
+Type=Application
+Categories=Development;IDE;
+Exec=/home/bhavik/Applications/GitEye/GitEye
+Terminal=false
+StartupNotify=true
+Icon=/home/bhavik/Documents/workspace/config-os/.icons/git.png
+Name[en_US]=GitEye
+StartupWMClass="SWT"
