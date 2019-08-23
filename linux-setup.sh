@@ -10,6 +10,7 @@ ln -sf $CONFIGS/.vimrc ~/.vimrc
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $WORKSPACE/xfce4 ~/.config/xfce4
+ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications
 
 touch ~/.workenv
 echo . ~/.workenv >> ~/.profile

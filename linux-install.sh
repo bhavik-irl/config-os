@@ -108,6 +108,6 @@ ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 
-cd 
+cd
 touch ~/.workenv
 echo . ~/.workenv >> ~/.profile

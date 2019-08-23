@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=Open Pluralsight
+Terminal=false
+Name=Pluralsight
+Exec=google-chrome https://app.pluralsight.com/library/
+Type=Application
+Icon=/home/bhavik/Documents/workspace/config-os/.icons/pluralsight.png
+NoDisplay=false

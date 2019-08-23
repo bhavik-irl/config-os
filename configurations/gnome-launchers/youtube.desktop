@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=Open Youtube website
+Terminal=false
+Name=Youtube
+Exec=google-chrome https://youtube.com/
+Type=Application
+Icon=/home/bhavik/Documents/workspace/config-os/.icons/youtube.png
+NoDisplay=false
