@@ -18,9 +18,8 @@ alias nodejs='cd $WORKSPACE_PATH/nodejs'
 alias work='cd $WORKSPACE_PATH/work'
 alias android='cd $WORKSPACE_PATH/android'
 alias android-scratch='cd $WORKSPACE_PATH/android/scratch-android'
-alias clean-android-arch='cd $WORKSPACE_PATH/android/clean-android-arch'
-alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
-alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
+alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs'
+alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs'
 
 #Open Projects
 alias opennodejsscratch='code $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
