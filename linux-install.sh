@@ -34,7 +34,7 @@ sudo apt upgrade -y
 
 # Install 
 sudo apt-get install -y unzip htop curl wget gpick build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre steam-devices gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk snapd insomnia code
-snap install spotify postman bitwarden
+snap install spotify bitwarden
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
@@ -70,30 +70,18 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
-
-echo "Apps
+echo "Development IDE & Code editors
 - Google Chrome
 - Dropbox
 - Simple Note
 - Slack
 - virtualbox
-"
-
-echo "Development IDE & Code editors
 - Android Studio
+- Webstorm
 - Intellij Idea 
 - Web storm
 - VS Code
-"
-
-echo "Image/Design Apps
-- Flameshot | Screenshot Tool 
-- Gpick | Color Picker
-- Gimp
-- Krita
-- Inkscape
-- Darktable
-- Peek
+- Postman
 "
 
 echo "\n\n"
