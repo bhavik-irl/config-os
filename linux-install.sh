@@ -70,7 +70,7 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
-echo "Development IDE & Code editors
+echo "Software
 - Google Chrome
 - Dropbox
 - Simple Note
@@ -80,8 +80,15 @@ echo "Development IDE & Code editors
 - Webstorm
 - Intellij Idea 
 - Web storm
-- VS Code
 - Postman
+"
+
+echo "Gnome Extensions
+- Dash to Dock  
+- KStatusNotifierItem/AppIndicator Support 
+- Remove Alt+Tab Delay  
+- Suspend Button
+- User Themes
 "
 
 echo "\n\n"
