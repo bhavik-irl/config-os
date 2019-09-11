@@ -89,6 +89,7 @@ echo "Gnome Extensions
 - Remove Alt+Tab Delay  
 - Suspend Button
 - User Themes
+- Hide Activities Button
 "
 
 echo "\n\n"
