@@ -43,8 +43,15 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 # Node JS
 sudo apt-get install curl
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install nodejs
+mkdir ~/.nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+nvm install v12.10.0
+nvm install v10.16.3
 
 # Docker setup
 
