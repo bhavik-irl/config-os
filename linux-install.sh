@@ -98,6 +98,7 @@ echo "Gnome Extensions
 - Hide Activities Button
 - Sound Input & Output Device Chooser
 - Bluetooth quick connect 
+- gTile (for Ultrawide Monitors)
 "
 
 echo "\n\n"
