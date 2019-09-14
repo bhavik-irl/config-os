@@ -80,13 +80,12 @@ git clone git@github.com:bp1235811/scratch-reactjs.git
 echo "Software
 - Google Chrome
 - Dropbox
-- Simple Note
+- Standard Notes
 - Slack
 - virtualbox
 - Android Studio
 - Webstorm
-- Intellij Idea 
-- Web storm
+- Intellij Idea
 - Postman
 "
 
@@ -97,6 +96,8 @@ echo "Gnome Extensions
 - Suspend Button
 - User Themes
 - Hide Activities Button
+- Sound Input & Output Device Chooser
+- Bluetooth quick connect 
 "
 
 echo "\n\n"
