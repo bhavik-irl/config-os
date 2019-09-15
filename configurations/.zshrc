@@ -6,6 +6,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 ###Added by User
+export WORKSPACE_PATH=~/Documents/workspace
 export PATH_TO_CONFIGS=~/Documents/workspace/config-os/configurations
 
 # set PATH so it includes user's private bin if it exists
