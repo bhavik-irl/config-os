@@ -7,3 +7,5 @@ synclient HorizScrollDelta=-58
 compton
 xmodmap ~/.Xmodmap
 #sudo vi /etc/default/keyboard  ADD-> XKBOPTIONS="ctrl:nocaps"
+
+/usr/bin/setxkbmap -option ctrl:swap_lalt_lctl
