@@ -2,7 +2,7 @@
 Comment=Open Netflix website
 Terminal=false
 Name=Netflix
-Exec=google-chrome https://netflix.com/
+Exec=firefox https://netflix.com/
 Type=Application
 Icon=/home/bhavik/Documents/workspace/config-os/.icons/netflix.png
 NoDisplay=false
