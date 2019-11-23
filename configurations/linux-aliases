@@ -18,7 +18,7 @@ alias ccompton="code ~/.config/compton.conf"
 alias gi3="gedit ~/.config/i3/config"
 alias gcompton="gedit ~/.config/compton.conf"
 alias xwin="xwininfo " 
-alias fixTheme='gsettings set org.gnome.desktop.interface gtk-theme "Sierra-dark-solid" && gsettings set org.gnome.desktop.interface icon-theme 'MyIconTheme' && '
+alias fixTheme="gsettings set org.gnome.desktop.interface gtk-theme 'Sierra-dark-solid' && gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'"
 
 alias mergeAllPDFInThisDirectory="pdftk *.pdf cat output outputfile.pdf"
 

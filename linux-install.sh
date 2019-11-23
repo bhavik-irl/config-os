@@ -77,6 +77,9 @@ git clone git@github.com:bp1235811/scratch-nodejs.git
 cd ~/Documents/workspace/reactjs
 git clone git@github.com:bp1235811/scratch-reactjs.git
 
+gsettings set org.gnome.desktop.interface gtk-theme 'Sierra-dark-solid' 
+gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+
 echo "Software
 - Google Chrome
 - Dropbox
