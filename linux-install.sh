@@ -111,10 +111,12 @@ export WORKSPACE=/home/bhavik/Documents/workspace/config-os
 export CONFIGS=$WORKSPACE/configurations
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
+ln -sf $CONFIGS/.Xmodmap ~/.Xmodmap
 ln -sf $CONFIGS/.zshrc ~/.zshrc
-# ln -sf $CONFIGS/compton.conf ~/.config/compton.conf
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
+ln -sf $CONFIGS/.vimrc ~/.vimrc
+ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications
 
 cd
 touch ~/.workenv

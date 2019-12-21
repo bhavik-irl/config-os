@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=Open Code With Mosh website
-Terminal=false
-Name=Code With Mosh
-Exec=firefox https://codewithmosh.teachable.com/courses/
-Type=Application
-Icon=/home/bhavik/Documents/workspace/config-os/.icons/code-with-mosh.png
