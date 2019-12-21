@@ -32,10 +32,7 @@ brew cask install gimp
 Echo "
 Install Following From App Store Manually:
 - Giphy capture
-- wunderlist
-- trello
 - BetterSnapTool
-- Amphetamine
 "
 
 export WORKSPACE=/Users/bhavik/Documents/workspace/config-os
