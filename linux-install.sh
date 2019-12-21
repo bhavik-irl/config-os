@@ -105,6 +105,8 @@ echo "Gnome Extensions
 - Sound Input & Output Device Chooser
 - Bluetooth quick connect 
 - gTile (for Ultrawide Monitors)
+- Caffeine 
+- Impatience 
 "
 
 echo "\n\n"
