@@ -16,13 +16,13 @@ echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
 wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
     | sudo apt-key add -
 
-sudo apt install software-properties-common apt-transport-https wget
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+# sudo apt install software-properties-common apt-transport-https wget
+# wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+# sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 
-wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo apt-get install apt-transport-https
+# wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+# sudo dpkg -i packages-microsoft-prod.deb
+# sudo apt-get install apt-transport-https
 
 # Refresh repository sources and install Insomnia
 sudo apt-get update
@@ -33,8 +33,11 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre steam-devices gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk snapd insomnia code
+sudo apt-get install -y unzip htop curl wget gpick build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre steam-devices gnome-disk-utility tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk snapd insomnia code flatpak
 snap install spotify bitwarden
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install hydrapaper
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
