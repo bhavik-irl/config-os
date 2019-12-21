@@ -1,8 +1,0 @@
-[Desktop Entry]
-Comment=Open iCloud
-Terminal=false
-Name=iCloud
-Exec=firefox https://www.icloud.com
-Type=Application
-Icon=/home/bhavik/Documents/workspace/config-os/.icons/icloud.png
-NoDisplay=false

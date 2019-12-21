@@ -1,8 +1,0 @@
-[Desktop Entry]
-Comment=Open Pluralsight
-Terminal=false
-Name=Pluralsight
-Exec=firefox https://app.pluralsight.com/library/
-Type=Application
-Icon=/home/bhavik/Documents/workspace/config-os/.icons/pluralsight.png
-NoDisplay=false
