@@ -93,6 +93,7 @@ echo "Software
 - Webstorm
 - Intellij Idea
 - Postman
+- uLauncher (https://ulauncher.io/) cp `dark` theme to ~/.config/ulauncher/user-themes/    
 "
 
 echo "Gnome Extensions
