@@ -15,5 +15,5 @@ alias reactjs='cd $WORKSPACE_PATH/reactjs'
 alias nodejs='cd $WORKSPACE_PATH/nodejs'
 alias android='cd $WORKSPACE_PATH/android'
 
-alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
-alias addworksshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_work'
+alias addpersonalsshkey='ssh-add -D && ssh-add ~/.ssh/id_rsa_personal'
+alias addworksshkey='ssh-add -D && ssh-add ~/.ssh/id_rsa_work'
