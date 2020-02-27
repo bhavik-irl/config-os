@@ -27,5 +27,5 @@ export NVM_DIR="$HOME/.nvm"
 ###GitEye
 export GIT_SSH=/usr/bin/ssh
 
-. /home/bhavik/.workenv
+. ~/.workenv
 . $PATH_TO_CONFIGS/nix-aliases
