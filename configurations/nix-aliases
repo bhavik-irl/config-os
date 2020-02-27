@@ -7,8 +7,6 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
-alias edit='vim'
-alias c='clear'
 
 #files navigation
 alias workspace='cd $WORKSPACE_PATH'
@@ -21,53 +19,5 @@ alias android-scratch='cd $WORKSPACE_PATH/android/scratch-android'
 alias nodejs-scratch='cd $WORKSPACE_PATH/nodejs/scratch-nodejs'
 alias reactjs-scratch='cd $WORKSPACE_PATH/reactjs/scratch-reactjs'
 
-#Open Projects
-alias opennodejsscratch='code $WORKSPACE_PATH/nodejs/scratch-nodejs/project'
-alias openreactjsscratch='code $WORKSPACE_PATH/reactjs/scratch-reactjs/project'
-alias nodecourse='google-chrome --profile-directory="Profile 1" https://codewithmosh.com/courses/enrolled/293204'
-alias reactcourse='google-chrome --profile-directory="Profile 1" https://codewithmosh.com/courses/enrolled/357787'
-
-#git
-alias gstatus='git status'
-alias gaddem='git add .'
-alias gadd='git add'
-alias grm='git rm'
-alias gcommit='git commit -am'
-alias gpush='git push'
-alias gpushnewbranch='git push --set-upstream origin'
-alias gpull='git pull'
-alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
-alias ghistorypretty='git log --pretty=oneline'
-alias glog='git log'
-alias ginit='git init'
-alias gclone='git clone'
-alias gconfig='git config --list'
-alias gconfigname='git config user.name'
-alias gconfigemail='git config user.email'
-alias gdiff='git diff'
-alias grevert='git reset --hard'
-alias gfetch='git fetch origin'
-alias gbranch='git branch'
-alias gbranches='git branch -a'
-alias gcoutbranch='git checkout -b'
-
-#git tag tagName
-alias gcreatetag='git tag'
-
-#push all tags to remote
-alias gpushalltags='git push --tags'
-
-#git tag -d tagNameToDelete
-alias gdeletetag='git tag -d'
-
-#git push origin :refs/tags/tagName
-alias gpushtags='git push origin :refs/tags'
-
-#ssh
-alias deleteAllSSHKeys='ssh-add -D'
-alias showAllSSHKeys='ssh-add -l'
 alias addpersonalsshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_personal'
 alias addworksshkey='deleteAllSSHKeys && ssh-add ~/.ssh/id_rsa_work'
-
-alias zshconfig="vim ~/.zprofile"
-alias ohmyzsh="vim ~/.oh-my-zsh"

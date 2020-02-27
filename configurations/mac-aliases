@@ -1,6 +1,0 @@
-#Update 
-alias bu='brew update'
-
-#dev-tools
-alias installBrew='/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
-alias installNPM='brew install npm'

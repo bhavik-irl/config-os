@@ -122,7 +122,7 @@ ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $CONFIGS/.vimrc ~/.vimrc
-ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications
+ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications #usr/share/applications
 
 cd
 touch ~/.workenv
