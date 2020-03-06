@@ -95,6 +95,7 @@ echo "Gnome Extensions
 - gTile (for Ultrawide Monitors)
 - Caffeine 
 - Impatience 
+- Hide Top Bar
 "
 
 echo "\n\n"
