@@ -96,6 +96,7 @@ echo "Gnome Extensions
 - Caffeine 
 - Impatience 
 - Hide Top Bar
+- ShellTile
 "
 
 echo "\n\n"
