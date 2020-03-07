@@ -120,6 +120,24 @@ textview border {
   background-color: #2c2c2c;
 }
 
+.titlebar,
+headerbar {
+  min-height: 1px;
+  max-height: 1px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+}
+
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+  min-height: 1px;
+  max-height: 1px;
+  padding: 2px;
+  margin: 1px;
+}
+
 rubberband,
 flowbox rubberband,
 treeview.view rubberband,
@@ -5915,8 +5933,9 @@ terminal-window notebook>header.top tabs>tab,
 terminal-window notebook>header.top button,
 .mate-terminal notebook>header.top button {
   padding: 0;
-  min-width: 24px;
-  min-height: 24px;
+  min-width: 10px;
+  min-height: 10px;
+  max-height: 10px;
 }
 
 .nautilus-canvas-item {

@@ -7,19 +7,19 @@
 #
 
 # git status variables
-ZSH_THEME_GIT_PROMPT_PREFIX=" %{$reset_color%}-> %{$fg[magenta]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX=""
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$reset_color%}➨  %{$fg[magenta]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg_bold[red]%}"
 ZSH_THEME_GIT_PROMPT_DIRTY=""
-ZSH_THEME_GIT_PROMPT_CLEAN=""
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%} ✔"
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg_bold[cyan]%} +"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg_bold[yellow]%} !"
-ZSH_THEME_GIT_PROMPT_DELETED="%{$fg_bold[red]%} —"
+ZSH_THEME_GIT_PROMPT_DELETED="%{$fg_bold[red]%} -"
 ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg_bold[green]%} »"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg_bold[white]%} #"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[blue]%} ?"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg_bold[yellow]%} …"
 ZSH_THEME_GIT_PROMPT_STASHED="%{$fg_bold[yellow]%}"
-ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_bold[blue]%} •|"
-ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[blue]%} |•"
+ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_bold[blue]%} ↓"
+ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[blue]%} ↑"
 
 # git status display
 local git_info='$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
@@ -29,7 +29,7 @@ local user_host='%{$fg[yellow]%}%n%{$reset_color%}@%{$fg[yellow]%}%m %{$reset_co
 
 # default: blue, if return code other than 0: red
 local prompt_color="%(?,%{$fg[blue]%},%{$fg[red]%})"
-local prompt='${prompt_color}> %{$reset_color%}'
+local prompt='${prompt_color} ⸘  %{$reset_color%}'
 
 # current directory display
 local directory_path='%{$fg[magenta]%}%c'
@@ -49,7 +49,7 @@ else
 fi
 
 # right prompt definition
-RPROMPT="${directory_path}"
+RPROMPT="${directory_path}%{$reset_color%}"
 RPROMPT+="${git_info}"
 RPROMPT+="${return_code}"
 
