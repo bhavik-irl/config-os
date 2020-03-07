@@ -1,7 +1,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export ZSH=~/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="typewritten"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 

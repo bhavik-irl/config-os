@@ -20,7 +20,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
+sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
 snap install spotify bitwarden
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -112,6 +112,7 @@ ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $CONFIGS/.vimrc ~/.vimrc
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications #usr/share/applications
+ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes/typewritten.zsh-theme
 
 cd
 touch ~/.workenv
