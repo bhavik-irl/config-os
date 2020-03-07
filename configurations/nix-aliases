@@ -8,6 +8,9 @@ alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 
+alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
+alias ghistorypretty='git log --pretty=oneline'
+
 #files navigation
 alias workspace='cd $WORKSPACE_PATH'
 alias configos='cd $WORKSPACE_PATH/config-os'
