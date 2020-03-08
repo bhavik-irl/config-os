@@ -112,7 +112,8 @@ ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $CONFIGS/.vimrc ~/.vimrc
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications #usr/share/applications
-ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes/typewritten.zsh-theme
+ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
+ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
 
 cd
 touch ~/.workenv

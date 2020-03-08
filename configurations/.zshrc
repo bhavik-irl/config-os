@@ -2,7 +2,7 @@
 
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="typewritten"
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 ###Added by User
