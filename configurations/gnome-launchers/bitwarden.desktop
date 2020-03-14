@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Bitwarden
+Comment=Password Manager
+Exec="/home/bhavik/Applications/Bitwarden.AppImage" %U
+Terminal=false
+Type=Application
+Icon=appimagekit-bitwarden
+StartupWMClass=bitwarden
+Categories=Office;
+TryExec=/home/bhavik/Applications/Bitwarden.AppImage

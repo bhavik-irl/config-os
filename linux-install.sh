@@ -21,7 +21,7 @@ sudo apt upgrade -y
 
 # Install 
 sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential dotnet-sdk-2.2 cmake git gimp zsh flameshot calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
-snap install spotify bitwarden
+snap install spotify
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install hydrapaper
