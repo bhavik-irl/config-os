@@ -7,6 +7,8 @@ replace **a464c2**  with **313131**
 headerbar.default-decoration to change titlebar 
 3b3b3b to 1e1e1e
  373737 to 222222
+
+updated: 222222 to 1a1a1a
  
  css id/class/groups 
  popup-menu (to change colors of dropdown windows in gnome panel) (in gnome-shell.css)

@@ -104,6 +104,7 @@ echo "Gnome Extensions
 - Impatience 
 - Hide Top Bar
 - ShellTile
+- Steal My Focus 
 "
 
 echo "\n\n"

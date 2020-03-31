@@ -10,11 +10,11 @@
 
 @keyframes header_ripple_effect {
   from {
-    background-image: radial-gradient(circle farthest-corner at center, #222222 0%, transparent 0%);
+    background-image: radial-gradient(circle farthest-corner at center, #1a1a1a 0%, transparent 0%);
   }
 
   to {
-    background-image: radial-gradient(circle farthest-corner at center, #222222 100%, transparent 0%);
+    background-image: radial-gradient(circle farthest-corner at center, #1a1a1a 100%, transparent 0%);
   }
 }
 
@@ -1612,7 +1612,7 @@ toolbar,
 .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 4px;
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -1748,14 +1748,14 @@ headerbar,
   padding: 0 8px;
   background-image: none;
   color: rgba(225, 219, 219, 0.8);
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom: 1px solid #484848;
 }
 
 .csd headerbar,
 .csd .titlebar:not(headerbar) {
   background-image: none;
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom: 1px solid #484848;
 }
 
@@ -1776,7 +1776,7 @@ headerbar:backdrop,
 
 .maximized headerbar,
 .maximized .titlebar:not(headerbar) {
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom: 1px solid #484848;
 }
 
@@ -1850,7 +1850,7 @@ headerbar.selection-mode .selection-menu .arrow,
 
 .maximized headerbar,
 .maximized .titlebar:not(headerbar) {
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-color: #484848;
 }
 
@@ -1863,7 +1863,7 @@ headerbar.default-decoration,
 .default-decoration.titlebar:not(headerbar) {
   min-height: 26px;
   padding: 0 6px;
-  background-color: #222222;
+  background-color: #1a1a1a;
   background-image: none;
 }
 
@@ -2904,7 +2904,7 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0px;
-  background-color: #222222;
+  background-color: #1a1a1a;
   background-image: none;
   color: rgba(225, 219, 219, 0.8);
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
@@ -3068,7 +3068,7 @@ menu>arrow.bottom,
 menu>arrow:hover,
 .menu>arrow:hover {
   transition: none;
-  background-color: #222222;
+  background-color: #1a1a1a;
 }
 
 menu>arrow:disabled,
@@ -3321,7 +3321,7 @@ notebook>header>tabs>tab:hover:not(:checked) {
 
 notebook>header>tabs>tab:checked {
   color: #dedede;
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-color: #444444;
 }
 
@@ -4794,7 +4794,7 @@ calendar.highlight {
 
 messagedialog .titlebar {
   min-height: 20px;
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom: 1px solid #484848;
 }
 
@@ -5607,7 +5607,7 @@ messagedialog.csd decoration {
   border: 1px solid #4B4B4B;
   border-radius: 0;
   margin: 0;
-  background-color: #222222;
+  background-color: #1a1a1a;
   box-shadow: none;
 }
 
@@ -6125,14 +6125,14 @@ headerbar .nautilus-canvas-item.subtitle:selected:focus,
 .nemo-window .primary-toolbar {
   border: none;
   color: rgba(225, 219, 219, 0.8);
-  background-color: #222222;
+  background-color: #1a1a1a;
 }
 
 .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar)>button {
   padding-bottom: 2px;
   margin: 0;
   color: rgba(225, 219, 219, 0.8);
-  background-color: #222222;
+  background-color: #1a1a1a;
 }
 
 .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar)>button:not(:last-child):not(:only-child) {
@@ -7720,7 +7720,7 @@ UnityDecoration .top {
   border-bottom-width: 0;
   border-radius: 6px 6px 0 0;
   padding: 1px 6px 0 6px;
-  background-color: #222222;
+  background-color: #1a1a1a;
   background-image: none;
   color: rgba(225, 219, 219, 0.8);
   box-shadow: inset 0 1px #3f3f3f;
@@ -8147,7 +8147,7 @@ GtkListBox .h4 {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #222222;
+  background-color: #1a1a1a;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -9054,7 +9054,7 @@ popover.background.places-menu row {
 
 .budgie-panel {
   transition: background-color 0.2s cubic-bezier(0, 0, 0.2, 1);
-  background-color: #222222;
+  background-color: #1a1a1a;
   color: rgba(225, 219, 219, 0.8);
   font-weight: 500;
 }
