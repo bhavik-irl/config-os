@@ -19,7 +19,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential cmake git gimp zsh flameshot calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
+sudo apt-get install -y unzip htop curl wget gpick fonts-powerline git gimp zsh flameshot calibre qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
 snap install spotify
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -59,23 +59,23 @@ chsh -s $(which zsh)
 
 
 #Repository setup
-cd ~/Documents/workspace
-git clone git@github.com:bp1235811/config-os.git
+#cd ~/Documents/workspace
+#git clone git@github.com:bp1235811/config-os.git
 
-cd ~/Documents/workspace/android
-git clone git@github.com:n26/N26AndroidSamples.git
-git clone https://github.com/hitherejoe/GithubTrending.git
-git clone git@github.com:android10/Android-CleanArchitecture.git
-git clone git@github.com:bp1235811/scratch-android.git
+#cd ~/Documents/workspace/android
+#git clone git@github.com:n26/N26AndroidSamples.git
+#git clone https://github.com/hitherejoe/GithubTrending.git
+#git clone git@github.com:android10/Android-CleanArchitecture.git
+#git clone git@github.com:bp1235811/scratch-android.git
 
-cd ~/Documents/workspace/nodejs
-git clone git@github.com:bp1235811/scratch-nodejs.git
+#cd ~/Documents/workspace/nodejs
+#git clone git@github.com:bp1235811/scratch-nodejs.git
 
-cd ~/Documents/workspace/reactjs
-git clone git@github.com:bp1235811/scratch-reactjs.git
+#cd ~/Documents/workspace/reactjs
+#git clone git@github.com:bp1235811/scratch-reactjs.git
 
-gsettings set org.gnome.desktop.interface gtk-theme 'Sierra-dark-solid' 
-gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
+#gsettings set org.gnome.desktop.interface gtk-theme 'Sierra-dark-solid' 
+#gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
 
 echo "Software
 - Google Chrome
