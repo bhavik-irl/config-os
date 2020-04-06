@@ -6,8 +6,8 @@ plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 ###Added by User
-export WORKSPACE_PATH=~/Documents/workspace
-export PATH_TO_CONFIGS=~/Documents/workspace/config-os/configurations
+export WORKSPACE_PATH=~/Workspace
+export PATH_TO_CONFIGS=~/Workspace/config-os/configurations
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then

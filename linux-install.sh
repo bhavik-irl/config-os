@@ -10,6 +10,7 @@ mkdir nodejs reactjs android
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
+sudo add-apt-repository -y ppa:agornostal/ulauncher
 
 sudo apt-get update
 sudo apt-get install 
@@ -19,7 +20,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential cmake git gimp zsh flameshot calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
+sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential cmake git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
 snap install spotify
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -93,8 +94,7 @@ echo "Software
 echo "Gnome Extensions
 - Dash to Dock  
 - KStatusNotifierItem/AppIndicator Support 
-- Remove Alt+Tab Delay  
-- Suspend Button
+- Remove Alt+Tab Delay v2
 - User Themes
 - Hide Activities Button
 - Sound Input & Output Device Chooser
@@ -110,7 +110,7 @@ echo "Gnome Extensions
 echo "\n\n"
 
 # Linux Configuration
-export WORKSPACE=/home/bhavik/Documents/workspace/config-os
+export WORKSPACE=~/Workspace/config-os
 export CONFIGS=$WORKSPACE/configurations
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
@@ -119,7 +119,8 @@ ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $CONFIGS/.vimrc ~/.vimrc
-ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications #usr/share/applications
+#usr/share/applications
+ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
 ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
 ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
 
