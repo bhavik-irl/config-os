@@ -109,17 +109,17 @@ echo "Gnome Extensions
 
 echo "\n\n"
 
+
 # Linux Configuration
+# usr/share/applications
+
 export WORKSPACE=~/Workspace/config-os
 export CONFIGS=$WORKSPACE/configurations
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
-ln -sf $CONFIGS/.Xmodmap ~/.Xmodmap
 ln -sf $CONFIGS/.zshrc ~/.zshrc
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
-ln -sf $CONFIGS/.vimrc ~/.vimrc
-#usr/share/applications
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
 ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
 ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
