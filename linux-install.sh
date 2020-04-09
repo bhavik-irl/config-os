@@ -123,6 +123,7 @@ ln -sf $CONFIGS/.vimrc ~/.vimrc
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
 ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
 ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
+# ln -sf $WORKSPACE/.themes/uLaunch-Dark/user-themes ~/.config/ulauncher
 
 cd
 touch ~/.workenv
