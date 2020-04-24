@@ -1,11 +1,6 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-# Create Directories
-mkdir ~/Documents/workspace
-cd ~/Documents/workspace
-mkdir nodejs reactjs android
-
 # Add Repositories
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-add-repository -y ppa:teejee2008/ppa
