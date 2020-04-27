@@ -1,14 +1,8 @@
 sudo apt update -y
 sudo apt upgrade -y
 
-# Create Directories
-mkdir ~/Documents/workspace
-cd ~/Documents/workspace
-mkdir nodejs reactjs android
-
 # Add Repositories
 sudo add-apt-repository ppa:openjdk-r/ppa
-sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo add-apt-repository -y ppa:agornostal/ulauncher
 
@@ -20,16 +14,21 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xautomation exfat-fuse exfat-utils xpad timeshift gparted gnome-shell-extensions gnome-tweak-tool openjdk-8-jdk snapd code zeal flatpak 
+sudo apt-get install -y unzip htop curl wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xpad timeshift gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk zeal 
 snap install spotify
-
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install hydrapaper
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
 unzip awscli-bundle.zip
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+
+# Install Visual Studio Code
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install code
 
 # Node JS
 sudo apt-get install curl
@@ -58,26 +57,6 @@ sudo adduser bhavik kvm
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s $(which zsh)
 
-
-#Repository setup
-#cd ~/Documents/workspace
-#git clone git@github.com:bp1235811/config-os.git
-
-#cd ~/Documents/workspace/android
-#git clone git@github.com:n26/N26AndroidSamples.git
-#git clone https://github.com/hitherejoe/GithubTrending.git
-#git clone git@github.com:android10/Android-CleanArchitecture.git
-#git clone git@github.com:bp1235811/scratch-android.git
-
-#cd ~/Documents/workspace/nodejs
-#git clone git@github.com:bp1235811/scratch-nodejs.git
-
-#cd ~/Documents/workspace/reactjs
-#git clone git@github.com:bp1235811/scratch-reactjs.git
-
-#gsettings set org.gnome.desktop.interface gtk-theme 'Sierra-dark-solid' 
-#gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark'
-
 echo "Software
 - Google Chrome
 - Dropbox
@@ -102,8 +81,6 @@ echo "Gnome Extensions
 - gTile (for Ultrawide Monitors)
 - Caffeine 
 - Impatience 
-- Hide Top Bar
-- ShellTile
 - Steal My Focus 
 "
 

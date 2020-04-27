@@ -29,3 +29,5 @@ export GIT_SSH=/usr/bin/ssh
 
 . ~/.workenv
 . $PATH_TO_CONFIGS/nix-aliases
+
+export PATH="/home/bhavik/Android/Sdk/platform-tools:$PATH"
