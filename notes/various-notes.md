@@ -41,4 +41,18 @@ nameserver x.x.x.x
 nameserver x.x.x.x
 ```
 
-## restart machine
+restart machine
+
+### Change Wifi Power savings
+
+cd /etc/NetworkManager/conf.d/
+nano default-wifi-powersave-on.conf
+
+change value for wifi.powersave = x
+
+```
+0 (use default), 1 (ignore/don't touch), 2 (disable) or 3 (enable).
+wifi.powersave = 2
+```
+
+Change wifi.powersave to 2 to disable it
