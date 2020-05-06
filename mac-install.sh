@@ -21,13 +21,27 @@ brew cask install android-studio
 brew cask install spotify
 brew cask install virtualbox
 
+# Node JS
+mkdir ~/.nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+nvm install v12.10.0
+nvm install v10.16.3
+
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s $(which zsh)
+
 Echo "
 Install Following From App Store Manually:
 - Giphy capture
 - BetterSnapTool
 "
 
-export WORKSPACE=$HOME/Workspace/config-os
+export WORKSPACE=~/Workspace/config-os
 export CONFIGS=$WORKSPACE/configurations
 
 #create symbolic links for config files
@@ -42,3 +56,10 @@ cp *.otf $HOME/Library/Fonts
 rm $HOME/.zshrc
 touch .workenv
 ln -sf $CONFIGS/.zshrc $HOME/.zshrc
+
+ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
+ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
+
+cd
+touch ~/.workenv
+echo . ~/.workenv >> ~/.profile
