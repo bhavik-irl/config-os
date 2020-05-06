@@ -9,8 +9,9 @@ replace **a464c2** with **313131**
 headerbar.default-decoration to change titlebar
 3b3b3b to 1e1e1e
 373737 to 222222
-
 updated: 222222 to 1a1a1a
+
+navbar to change menubar
 
 css id/class/groups
 popup-menu (to change colors of dropdown windows in gnome panel) (in gnome-shell.css)
@@ -19,10 +20,13 @@ popup-menu (to change colors of dropdown windows in gnome panel) (in gnome-shell
 
 cd into /usr/share/gnome-shell/theme
 file ubuntu.css or pop.css
+
+```
 #lockDialogGroup {
-background: #1a1a1a url(resource:///org/gnome/shell/theme/noise-texture.png);
-background-repeat: repeat;
+    background: #1a1a1a url(resource:///org/gnome/shell/theme/noise-texture.png);
+    background-repeat: repeat;
 }
+```
 
 ### Change DNS lookup on ubuntu
 
