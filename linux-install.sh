@@ -14,7 +14,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop pdftk curl wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xpad timeshift gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk zeal 
+sudo apt-get install -y unzip htop pdftk curl wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xpad timeshift gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk zeal 
 snap install spotify
 
 # AWS setup
@@ -72,6 +72,9 @@ echo "Software
 
 echo "Gnome Extensions
 - Dash to Dock  
+- Dash to Panel
+- Panel OSD
+- Notification Center
 - KStatusNotifierItem/AppIndicator Support 
 - Remove Alt+Tab Delay v2
 - User Themes
