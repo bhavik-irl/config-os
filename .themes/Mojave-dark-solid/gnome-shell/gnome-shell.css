@@ -1197,7 +1197,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .switcher-list .item-box:selected {
-  background-color: #315bef;
+  background-color: #353535;
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -1454,7 +1454,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid {
-  background-color: #2a2a2a;
+  background-color: #212121;
   /* transition from transparent to solid */
   transition-duration: 250ms;
   background-gradient-direction: none;

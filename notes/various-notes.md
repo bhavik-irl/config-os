@@ -16,6 +16,20 @@ navbar to change menubar
 css id/class/groups
 popup-menu (to change colors of dropdown windows in gnome panel) (in gnome-shell.css)
 
+#### Menu Bar
+
+```
+menubar,
+.menubar {
+  -GtkWidget-window-dragging: true;
+  padding: 0px;
+  background-color: #242424;
+  background-image: none;
+  color: rgba(225, 219, 219, 0.8);
+  box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
+}
+```
+
 ### TO CHANGE LOCK SCREEN
 
 cd into /usr/share/gnome-shell/theme
