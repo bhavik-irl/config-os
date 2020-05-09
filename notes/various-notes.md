@@ -74,3 +74,5 @@ wifi.powersave = 2
 ```
 
 Change wifi.powersave to 2 to disable it
+
+Highlight Color: #545454
