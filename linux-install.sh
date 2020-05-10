@@ -98,6 +98,7 @@ export CONFIGS=$WORKSPACE/configurations
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
 ln -sf $CONFIGS/.zshrc ~/.zshrc
+ln -sf $CONFIGS/.alacritty.yml ~/.alacritty.yml
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
