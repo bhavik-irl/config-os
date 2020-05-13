@@ -76,3 +76,15 @@ wifi.powersave = 2
 Change wifi.powersave to 2 to disable it
 
 Highlight Color: #545454
+
+### Flameshot Shortcuts
+
+- Entire Screensshot
+
+  - Shift + Ctrl + 3
+  - `flameshot full -p /home/bhavik/Pictures/Screenshots`
+
+- Portion of Screenshot
+
+  - Shift + Ctrl + 4
+  - `flameshot gui -p /home/bhavik/Pictures/Screenshots`
