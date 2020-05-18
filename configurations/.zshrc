@@ -1,5 +1,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+ZSH_DISABLE_COMPFIX=true
+
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="typewritten"
 plugins=(git zsh-autosuggestions)
