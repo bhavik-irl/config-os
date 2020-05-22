@@ -88,3 +88,7 @@ Highlight Color: #545454
 
   - Shift + Ctrl + 4
   - `flameshot gui -p /home/bhavik/Pictures/Screenshots`
+
+### Watch settings change commands
+
+`dconf watch /`
