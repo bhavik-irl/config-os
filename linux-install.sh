@@ -52,6 +52,13 @@ nvm install v10.16.3
 
 # Docker setup
 
+# Notion Wrapper for Linux
+mkdir ~/Applications
+cd ~/Applications
+git clone git@github.com:puneetsl/lotion.git
+cd ~/Applications/lotion
+./install.sh
+
 #Various 
 sudo adduser bhavik kvm
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
@@ -98,7 +105,6 @@ export CONFIGS=$WORKSPACE/configurations
 
 ln -sf $CONFIGS/.xbindkeysrc ~/.xbindkeysrc
 ln -sf $CONFIGS/.zshrc ~/.zshrc
-ln -sf $CONFIGS/.alacritty.yml ~/.alacritty.yml
 ln -sf $WORKSPACE/.themes ~/.themes
 ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
