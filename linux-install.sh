@@ -110,6 +110,8 @@ ln -sf $WORKSPACE/.fonts ~/.fonts
 ln -sf $WORKSPACE/configurations/gnome-launchers/*.desktop ~/.local/share/applications 
 ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
 ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
+ln -sf $WORKSPACE/configurations/fontconfig ~/.config
+
 # ln -sf $WORKSPACE/.themes/uLaunch-Dark/user-themes ~/.config/ulauncher
 
 cd
