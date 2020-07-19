@@ -33,6 +33,10 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 
+# Java JDK 8
+# unzip tar to /usr/lib/jvm dir
+# export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_261
+# export PATH=$PATH:$JAVA_HOME/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
