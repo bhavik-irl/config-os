@@ -4,6 +4,10 @@ org.standardnotes.theme-focus
 /home/bhavik/.config/Standard Notes/Extensions/org.standardnotes.theme-focus
 replace **a464c2** with **313131**
 
+### Give Virtual Box Users access to USB
+
+sudo adduser \$USERNAME vboxusers
+
 ### GTK3 Themes
 
 headerbar.default-decoration to change titlebar
