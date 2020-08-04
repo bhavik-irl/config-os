@@ -47096,13 +47096,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.26605260134335357</real>
+				<real>0.46308228757708392</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.86114235839994324</real>
+				<real>0.16587031040944566</real>
 				<key>Red Component</key>
-				<real>0.9033104482323232</real>
+				<real>0.92294758558273315</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -47187,26 +47187,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.27583951770560067</real>
+				<real>0.13902963295379323</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.74648914832411584</real>
+				<real>0.5551605224609375</real>
 				<key>Red Component</key>
-				<real>0.78594539141414144</real>
+				<real>0.057213656138628721</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.13225273787975311</real>
+				<real>0.097707928097406693</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.99215686321258545</real>
+				<real>0.67186877748254115</real>
 				<key>Red Component</key>
-				<real>0.95645564794540405</real>
+				<real>0.97926086187362671</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
@@ -47252,13 +47252,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.80726527680235449</real>
+				<real>0.81703943014144897</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.81056906471689949</real>
+				<real>0.50198130043883227</real>
 				<key>Red Component</key>
-				<real>0.81703943014144897</real>
+				<real>0.35820277262610034</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -47865,7 +47865,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>614783946.99767995</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>73</integer>
+	<integer>74</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
