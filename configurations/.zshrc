@@ -3,7 +3,7 @@
 ZSH_DISABLE_COMPFIX=true
 
 export ZSH=~/.oh-my-zsh
-ZSH_THEME="typewritten"
+ZSH_THEME="agnoster"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
