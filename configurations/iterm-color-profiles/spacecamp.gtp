@@ -1,7 +1,7 @@
-[:1afaa660-43df-49b8-a3a5-c88ab7b1f8da]
+[:2dae2207-2baa-42e2-ab08-4cbc0562f305]
 visible-name='spacecamp'
-palette=['#1B1C1B', '#FF5300', '#0CBE02', '#F4D500', '#8BA9E3', '#DD68EC', '#CDFD00', '#F7F8F7', '#333333', '#FF6C00', '#77FF48', '#FFE700', '#9DD1FF', '#EA81FF', '#DDFF3B', '#FEFFFE']
-background_color='#1B1C1B'
+palette=['#232628', '#EB2A76', '#0E8D23', '#F9AB18', '#868387', '#868584', '#747272', '#5B80D0', '#626566', '#FFF69E', '#FFF28F', '#FEEE7E', '#A1A5A6', '#AAAAAC', '#B2B2B4', '#E1E0E0']
+background_color='#232628'
 bold_color='#FEFFFF'
-foreground_color='#FEFFFF'
+foreground_color='#828282'
 
