@@ -75,6 +75,7 @@ prompt_end() {
   fi
   print -n "%{%f%}"
   CURRENT_BG=''
+  printf "\n ➜";
 }
 
 ### Prompt components
