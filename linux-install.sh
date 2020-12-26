@@ -3,7 +3,6 @@ sudo apt upgrade -y
 
 # Add Repositories
 sudo add-apt-repository ppa:openjdk-r/ppa
-sudo add-apt-repository -y ppa:papirus/papirus
 sudo add-apt-repository -y ppa:agornostal/ulauncher
 
 sudo apt-get update
@@ -14,7 +13,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop pdftk curl wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm papirus-icon-theme xbindkeys xpad timeshift gnome-shell-extensions chrome-gnome-shell gnome-tweak-tool openjdk-8-jdk zeal code
+sudo apt-get install -y unzip htop pdftk curl wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks openjdk-8-jdk code
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
@@ -22,7 +21,6 @@ unzip awscli-bundle.zip
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 # Node JS
-sudo apt-get install curl
 mkdir ~/.nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
@@ -42,8 +40,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-nvm install v12.10.0
-nvm install v10.16.3
+nvm install v14.15.3
 
 # Docker setup
 
@@ -60,16 +57,12 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 chsh -s $(which zsh)
 
 echo "Software
-- Google Chrome
-- Dropbox
 - Standard Notes
 - Slack
-- virtualbox
 - Android Studio
 - Webstorm
 - Intellij Idea
-- Postman
-- Visual studio code insiders
+- Visual studio
 - uLauncher (https://ulauncher.io/) cp `dark` theme to ~/.config/ulauncher/user-themes/    
 "
 
