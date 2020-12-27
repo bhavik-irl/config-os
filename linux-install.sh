@@ -3,6 +3,7 @@ sudo apt upgrade -y
 
 # Add Repositories
 sudo add-apt-repository ppa:openjdk-r/ppa
+sudo add-apt-repository -y ppa:papirus/papirus
 sudo add-apt-repository -y ppa:agornostal/ulauncher
 
 sudo apt-get update
@@ -13,7 +14,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop pdftk curl wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks openjdk-8-jdk code
+sudo apt-get install -y unzip htop pdftk curl papirus-icon-theme wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks openjdk-8-jdk code
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
