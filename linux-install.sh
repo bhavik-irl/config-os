@@ -70,18 +70,16 @@ echo "Software
 echo "Gnome Extensions
 - Dash to Dock  
 - Dash to Panel
-- Panel OSD
-- Notification Center
-- KStatusNotifierItem/AppIndicator Support 
 - Remove Alt+Tab Delay v2
 - User Themes
-- Hide Activities Button
 - Sound Input & Output Device Chooser
 - Bluetooth quick connect 
 - gTile (for Ultrawide Monitors)
 - Caffeine 
 - Impatience 
 - Steal My Focus 
+- Toggle Night Light
+- Night Light Slider
 "
 
 echo "\n\n"
