@@ -32,10 +32,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 
-# SDK Man
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 # Java JDK 8
 # unzip tar to /usr/lib/jvm dir
 # export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_261
