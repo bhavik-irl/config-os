@@ -30,3 +30,6 @@ export GIT_SSH=/usr/bin/ssh
 
 . ~/.workenv
 . $PATH_TO_CONFIGS/nix-aliases
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/bhavik/.sdkman"
+[[ -s "/home/bhavik/.sdkman/bin/sdkman-init.sh" ]] && source "/home/bhavik/.sdkman/bin/sdkman-init.sh"
