@@ -1,7 +1,7 @@
 /**
  * App Window
  */
-@define-color bg_color #212121;
+@define-color bg_color #111111;
 @define-color window_bg @bg_color;
 @define-color window_border_color #212121;
 @define-color prefs_backgroud #aaa;
