@@ -1,7 +1,7 @@
 [:2dae2207-2baa-42e2-ab08-4cbc0562f305]
 visible-name='spacecamp'
 palette=['#232628', '#EB2A76', '#0E8D23', '#F9AB18', '#2DB57B', '#868584', '#747272', '#5B80D0', '#626566', '#FFF69E', '#FFF28F', '#FEEE7E', '#A1A5A6', '#AAAAAC', '#B2B2B4', '#E1E0E0']
-background_color='#232628'
+background_color='#111111'
 bold_color='#FEFFFF'
 foreground_color='#828282'
 
