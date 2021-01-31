@@ -32,6 +32,12 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install docker-ce
 
+# Typora
+wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+sudo add-apt-repository 'deb https://typora.io/linux ./'
+sudo apt-get update
+sudo apt-get install typora
+
 # Java JDK 8
 # unzip tar to /usr/lib/jvm dir
 # export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_261
