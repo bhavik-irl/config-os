@@ -59,6 +59,7 @@ ln -sf $CONFIGS/.zshrc $HOME/.zshrc
 
 ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
 ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
+ln -sf $WORKSPACE/configurations/typora-themes/*  ~/Library/Application\ Support/abnerworks.Typora/themes
 
 cd
 touch ~/.workenv
