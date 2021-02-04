@@ -14,6 +14,7 @@ alias ghistorypretty='git log --pretty=oneline'
 #files navigation
 alias workspace='cd $WORKSPACE_PATH'
 alias configos='cd $WORKSPACE_PATH/config-os'
+alias notes='cd $WORKSPACE_PATH/notes'
 alias reactjs='cd $WORKSPACE_PATH/js-playground'
 alias nodejs='cd $WORKSPACE_PATH/js-playground'
 alias android='cd $WORKSPACE_PATH/android-playground'
