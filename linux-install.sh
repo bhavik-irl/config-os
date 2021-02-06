@@ -53,13 +53,6 @@ npm install -g @bitwarden/cli
 
 # Docker setup
 
-# Notion Wrapper for Linux
-mkdir ~/Applications
-cd ~/Applications
-git clone git@github.com:puneetsl/lotion.git
-cd ~/Applications/lotion
-./install.sh
-
 #Various 
 sudo adduser bhavik kvm
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
