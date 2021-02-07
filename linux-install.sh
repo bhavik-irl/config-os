@@ -58,6 +58,10 @@ sudo adduser bhavik kvm
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s $(which zsh)
 
+# Remove Downloaded files
+rm awscli-bundle.zip
+rm -rf awscli-bundle
+
 echo "Software
 - Standard Notes
 - Slack
