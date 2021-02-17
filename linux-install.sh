@@ -6,15 +6,18 @@ sudo add-apt-repository ppa:openjdk-r/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo add-apt-repository -y ppa:agornostal/ulauncher
 
+wget -qO - https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add - 
+echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
+
 sudo apt-get update
 sudo apt-get install 
 
 # Update Repos
-sudo apt update -y
+sudo apt update -y  
 sudo apt upgrade -y
 
 # Install 
-sudo apt-get install -y unzip htop pdftk curl papirus-icon-theme wget gpick p7zip-full fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks openjdk-8-jdk code
+sudo apt-get install -y unzip htop pdftk curl papirus-icon-theme wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks code signal-desktop
 
 # AWS setup
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
