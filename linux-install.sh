@@ -2,7 +2,6 @@ sudo apt update -y
 sudo apt upgrade -y
 
 # Add Repositories
-sudo add-apt-repository ppa:openjdk-r/ppa
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo add-apt-repository -y ppa:agornostal/ulauncher
 
@@ -60,6 +59,10 @@ npm install -g @bitwarden/cli
 sudo adduser bhavik kvm
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s $(which zsh)
+
+# Remove Downloaded files
+rm awscli-bundle.zip
+rm -rf awscli-bundle
 
 echo "Software
 - Standard Notes
