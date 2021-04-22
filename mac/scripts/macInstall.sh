@@ -8,7 +8,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # Install Apps using brew cask
 # Generic tools
-brew cask install appcleaner
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install firefox
