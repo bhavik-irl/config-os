@@ -1,3 +1,11 @@
+# Install Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Install apps using cask
+brew install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
 # Install Apps using brew cask
 # Generic tools
 brew cask install appcleaner
@@ -19,7 +27,6 @@ brew cask install android-studio
 
 # Other
 brew cask install spotify
-brew cask install virtualbox
 
 # Node JS
 mkdir ~/.nvm
