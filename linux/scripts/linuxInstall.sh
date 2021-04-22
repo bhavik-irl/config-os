@@ -119,9 +119,6 @@ echo "
 rm awscli-bundle.zip
 rm -rf awscli-bundle
 
-
-# Linux Configuration
-# usr/share/applications
 echo "
 ██╗░░░░░██╗███╗░░██╗██╗░░██╗
 ██║░░░░░██║████╗░██║██║░██╔╝
@@ -147,7 +144,6 @@ ln -sf $WORKSPACE/configurations/typora-themes/*  ~/.config/Typora/themes
 
 cd
 touch ~/.workenv
-echo . ~/.workenv >> ~/.profile
 
 echo "
 ██████╗░░█████╗░███╗░░██╗███████╗
