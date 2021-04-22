@@ -1,12 +1,3 @@
-# Manual Downloads
-
-- Standard Notes
-- Slack
-- Android Studio
-- Webstorm
-- Intellij Idea
-- Visual studio
-
 # Gnome Extensions
 
 - Dash to Dock
