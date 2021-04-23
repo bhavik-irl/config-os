@@ -22,7 +22,7 @@ downloadRepositories() {
 macLocalEnv() {
 echo "# Mac Local Environment
 export SETUP_OS=$SETUP_OS
-export ANDROID_HOME=\$HOME/Library/Android/Sdk" >> $LOCAL_ENV_FILE
+export ANDROID_HOME=\$HOME/Library/Android/sdk" >> $LOCAL_ENV_FILE
 }
 
 linuxLocalEnv() {
@@ -37,6 +37,7 @@ export PATH=\$PATH:\$ANDROID_HOME/emulator
 export PATH=\$PATH:\$ANDROID_HOME/tools
 export PATH=\$PATH:\$ANDROID_HOME/tools/bin
 export PATH=\$PATH:\$ANDROID_HOME/platform-tools
+export PATH=\$PATH:\$ANDROID_HOME/bundle-tool
 
 export GRADLE_USER_HOME=\$HOME/.gradle
 " >> $LOCAL_ENV_FILE
