@@ -51,45 +51,48 @@ echo "Please setup environemtn variable using -> export SETUP_OS=linux OR mac"
 macLinkConfigFiles() {
   rm $HOME/.zshrc
   ln -sf $COMMON_CONFIGS/zsh/.zshrc $HOME/.zshrc
-  ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
-  ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
-  cd ~/.oh-my-zsh
+  ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme $HOME/.oh-my-zsh/themes
+  ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ $HOME/.oh-my-zsh/plugins
+  cd $HOME/.oh-my-zsh
   git add . 
   git commit -am "added themes and plugins"
+  cd
 
   cd $ASSETS/.fonts 
   cp *.ttf $HOME/Library/Fonts
   cp *.otf $HOME/Library/Fonts
+  cd
  
-  ln -sf $ASSETS/typora/typora-themes/*  ~/Library/Application\ Support/abnerworks.Typora/themes
+  ln -sf $ASSETS/typora/typora-themes/*  $HOME/Library/Application\ Support/abnerworks.Typora/themes
 
-  ln -sf $OS_CONFIGS/.hushlogin ~/.hushlogin
+  ln -sf $OS_CONFIGS/.hushlogin $HOME/.hushlogin
 
-  ln -sf $LOCAL_ENV_FILE ~/.localEnv
+  ln -sf $LOCAL_ENV_FILE $HOME/.localEnv
 }
 
 
 linuxLinkConfigFiles() {
-  ln -sf $COMMON_CONFIGS/zsh/.zshrc ~/.zshrc
-  ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
-  ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
-  cd ~/.oh-my-zsh
+  ln -sf $COMMON_CONFIGS/zsh/.zshrc $HOME/.zshrc
+  ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme $HOME/.oh-my-zsh/themes
+  ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ $HOME/.oh-my-zsh/plugins
+  cd $HOME/.oh-my-zsh
   git add . 
   git commit -am "added themes and plugins"
+  cd
 
-  ln -sf $ASSETS/.themes ~/.themes
-  ln -sf $ASSETS/.fonts ~/.fonts
+  ln -sf $ASSETS/.themes/ $HOME/.themes
+  ln -sf $ASSETS/.fonts/ $HOME/.fonts
 
-  ln -sf $ASSETS/typora/typora-themes/*  ~/.config/Typora/themes
+  ln -sf $ASSETS/typora/typora-themes/*  $HOME/.config/Typora/themes
   
-  ln -sf $OS_CONFIGS/.xbindkeysrc ~/.xbindkeysrc
+  ln -sf $OS_CONFIGS/.xbindkeysrc $HOME/.xbindkeysrc
 
-  ln -sf $OS_CONFIGS/gnome-launchers/*.desktop ~/.local/share/applications/
-  ln -sf $OS_CONFIGS/fontconfig ~/.config
+  ln -sf $OS_CONFIGS/gnome-launchers/*.desktop $HOME/.local/share/applications/
+  ln -sf $OS_CONFIGS/fontconfig $HOME/.config
 
-  ln -sf $LOCAL_ENV_FILE ~/.localEnv
+  ln -sf $LOCAL_ENV_FILE $HOME/.localEnv
  
-  ln -sf $ASSETS/.themes/uLaunch-Dark/user-themes ~/.config/ulauncher
+  ln -sf $ASSETS/.themes/uLaunch-Dark/user-themes $HOME/.config/ulauncher
 }
 
 
