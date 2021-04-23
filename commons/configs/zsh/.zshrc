@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 # ███████╗██║░╚███║░░╚██╔╝░░
 # ╚══════╝╚═╝░░╚══╝░░░╚═╝░░░
 export WORKSPACE_PATH=$HOME/Workspace
-export PATH_TO_CONFIGS=$WORKSPACE_PATH/config-os/commons/configs
+export CONFIG_OS=$WORKSPACE_PATH/config-os
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -37,10 +37,8 @@ fi
 export ZPROFILE="ZPROFILE LOADED"
 
 . $HOME/.localEnv
-. $PATH_TO_CONFIGS/nixAliases
-
-
-
+. $CONFIG_OS/commons/configs/nixAliases
+. $CONFIG_OS/$SETUP_OS/configs/nixAliases
 
 # ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
 # ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
