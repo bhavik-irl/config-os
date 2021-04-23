@@ -50,8 +50,6 @@ echo "Please setup environemtn variable using -> export SETUP_OS=linux OR mac"
 macLinkConfigFiles() {
   rm $HOME/.zshrc
   ln -sf $COMMON_CONFIGS/zsh/.zshrc $HOME/.zshrc
-  ln -sf $COMMON_CONFIGS/zsh/.zprofile $HOME/.zprofile
-  ln -sf $COMMON_CONFIGS/zsh/.zshenv $HOME/.zshenv
   ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
   ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
   cd ~/.oh-my-zsh
@@ -72,8 +70,6 @@ macLinkConfigFiles() {
 
 linuxLinkConfigFiles() {
   ln -sf $COMMON_CONFIGS/zsh/.zshrc ~/.zshrc
-  ln -sf $COMMON_CONFIGS/zsh/.zprofile $HOME/.zprofile
-  ln -sf $COMMON_CONFIGS/zsh/.zshenv $HOME/.zshenv
   ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
   ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
   cd ~/.oh-my-zsh
