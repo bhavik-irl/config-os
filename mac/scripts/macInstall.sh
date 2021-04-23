@@ -70,34 +70,6 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 chsh -s $(which zsh)
 
 echo "
-██╗░░░░░██╗███╗░░██╗██╗░░██╗
-██║░░░░░██║████╗░██║██║░██╔╝
-██║░░░░░██║██╔██╗██║█████═╝░
-██║░░░░░██║██║╚████║██╔═██╗░
-███████╗██║██║░╚███║██║░╚██╗
-╚══════╝╚═╝╚═╝░░╚══╝╚═╝░░╚═╝"
-
-export WORKSPACE=~/Workspace/config-os
-export CONFIGS=$WORKSPACE/configurations
-
-ln -sf $CONFIGS/.hushlogin ~/.hushlogin
-
-cd $WORKSPACE/.fonts 
-cp *.ttf $HOME/Library/Fonts
-cp *.otf $HOME/Library/Fonts
-
-rm $HOME/.zshrc
-touch .workenv
-ln -sf $CONFIGS/.zshrc $HOME/.zshrc
-
-ln -sf $WORKSPACE/configurations/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
-ln -sf $WORKSPACE/configurations/zsh-plugins/*/ ~/.oh-my-zsh/plugins
-ln -sf $WORKSPACE/configurations/typora-themes/*  ~/Library/Application\ Support/abnerworks.Typora/themes
-
-cd
-touch ~/.workenv
-
-echo "
 ██████╗░░█████╗░███╗░░██╗███████╗
 ██╔══██╗██╔══██╗████╗░██║██╔════╝
 ██║░░██║██║░░██║██╔██╗██║█████╗░░
