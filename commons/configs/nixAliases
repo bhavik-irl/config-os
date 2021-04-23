@@ -1,5 +1,5 @@
 # unix commands
-alias ll='ls -la'
+alias ll='ls -al'
 alias ..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../../../'

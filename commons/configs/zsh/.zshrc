@@ -1,4 +1,11 @@
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# ███████╗░██████╗██╗░░██╗  ░█████╗░░█████╗░███╗░░██╗███████╗██╗░██████╗░
+# ╚════██║██╔════╝██║░░██║  ██╔══██╗██╔══██╗████╗░██║██╔════╝██║██╔════╝░
+# ░░███╔═╝╚█████╗░███████║  ██║░░╚═╝██║░░██║██╔██╗██║█████╗░░██║██║░░██╗░
+# ██╔══╝░░░╚═══██╗██╔══██║  ██║░░██╗██║░░██║██║╚████║██╔══╝░░██║██║░░╚██╗
+# ███████╗██████╔╝██║░░██║  ╚█████╔╝╚█████╔╝██║░╚███║██║░░░░░██║╚██████╔╝
+# ╚══════╝╚═════╝░╚═╝░░╚═╝  ░╚════╝░░╚════╝░╚═╝░░╚══╝╚═╝░░░░░╚═╝░╚═════╝░
+
 ZSH_DISABLE_COMPFIX=true
 
 export ZSH=~/.oh-my-zsh
@@ -6,9 +13,16 @@ ZSH_THEME="agnoster"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
-###Added by User
-export WORKSPACE_PATH=~/Workspace
-export PATH_TO_CONFIGS=~/Workspace/config-os/commons/configs
+
+
+# ███████╗███╗░░██╗██╗░░░██╗
+# ██╔════╝████╗░██║██║░░░██║
+# █████╗░░██╔██╗██║╚██╗░██╔╝
+# ██╔══╝░░██║╚████║░╚████╔╝░
+# ███████╗██║░╚███║░░╚██╔╝░░
+# ╚══════╝╚═╝░░╚══╝░░░╚═╝░░░
+export WORKSPACE_PATH=$HOME/Workspace
+export PATH_TO_CONFIGS=$WORKSPACE_PATH/config-os/commons/configs
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -20,15 +34,42 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-###NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export ZPROFILE="ZPROFILE LOADED"
 
-. ~/.localEnv
-. $PATH_TO_CONFIGS/nix-aliases
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+. $HOME/.localEnv
+. $PATH_TO_CONFIGS/nixAliases
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
+
+
+
+# ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
+# ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
+# ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
+# ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
+# ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
+# ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░
+# Author: https://www.growingwiththeweb.com/2018/01/slow-nvm-init.html
+# Defer initialization of nvm until nvm, node or a node-dependent command is
+# run. Ensure this block is only run once if .bashrc gets sourced multiple times
+# by checking whether __init_nvm is a function.
+if [ -s "$HOME/.nvm/nvm.sh" ] && [ ! "$(type __init_nvm)" = function ]; then
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
+  declare -a __node_commands=('nvm' 'node' 'npm' 'yarn' 'gulp' 'grunt' 'webpack')
+  function __init_nvm() {
+    for i in "${__node_commands[@]}"; do unalias $i; done
+    . "$NVM_DIR"/nvm.sh
+    unset __node_commands
+    unset -f __init_nvm
+  }
+  for i in "${__node_commands[@]}"; do alias $i='__init_nvm && '$i; done
+fi
+
+# Not using below NVM init because it slows down shell intialization for each shell env
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

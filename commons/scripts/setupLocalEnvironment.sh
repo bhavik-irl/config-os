@@ -1,11 +1,11 @@
 linux="linux"
 mac="mac"
 
-export WORKSPACE=~/Workspace/config-os
+export WORKSPACE=$HOME/Workspace/config-os
 export OS_CONFIGS=$WORKSPACE/$SETUP_OS/configs
 export COMMON_CONFIGS=$WORKSPACE/commons/configs
-export LOCAL_ENV_FILE=$CONFIGS/dotlocalEnv
-export ASSETS=$WORKSPACE/assets
+export LOCAL_ENV_FILE=$WORKSPACE/dotlocalEnv
+export ASSETS=$WORKSPACE/commons/assets
 
 downloadRepositories() {
   cd ~
@@ -31,11 +31,6 @@ export SETUP_OS=$SETUP_OS
 export ANDROID_HOME=\$HOME/Android/Sdk" >> $LOCAL_ENV_FILE
 }
 
-commonLinkConfigFiles() {
-  ## zsh goes here 
-  ## any other dot files that are common between mac and linux
-}
-
 commonEnv() {
 echo "
 export PATH=\$PATH:\$ANDROID_HOME/emulator
@@ -55,6 +50,8 @@ echo "Please setup environemtn variable using -> export SETUP_OS=linux OR mac"
 macLinkConfigFiles() {
   rm $HOME/.zshrc
   ln -sf $COMMON_CONFIGS/zsh/.zshrc $HOME/.zshrc
+  ln -sf $COMMON_CONFIGS/zsh/.zprofile $HOME/.zprofile
+  ln -sf $COMMON_CONFIGS/zsh/.zshenv $HOME/.zshenv
   ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
   ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
   cd ~/.oh-my-zsh
@@ -69,12 +66,14 @@ macLinkConfigFiles() {
 
   ln -sf $OS_CONFIGS/.hushlogin ~/.hushlogin
 
-  ln -sf $WORKSPACE/dotlocalEnv ~/.localEnv
+  ln -sf $LOCAL_ENV_FILE ~/.localEnv
 }
 
 
 linuxLinkConfigFiles() {
   ln -sf $COMMON_CONFIGS/zsh/.zshrc ~/.zshrc
+  ln -sf $COMMON_CONFIGS/zsh/.zprofile $HOME/.zprofile
+  ln -sf $COMMON_CONFIGS/zsh/.zshenv $HOME/.zshenv
   ln -sf $COMMON_CONFIGS/zsh/zsh-themes/*.zsh-theme ~/.oh-my-zsh/themes
   ln -sf $COMMON_CONFIGS/zsh/zsh-plugins/*/ ~/.oh-my-zsh/plugins
   cd ~/.oh-my-zsh
@@ -88,21 +87,17 @@ linuxLinkConfigFiles() {
   
   ln -sf $OS_CONFIGS/.xbindkeysrc ~/.xbindkeysrc
 
-  ln -sf $OS_CONFIGS/gnome-launchers/*.desktop ~/.local/share/applications 
+  ln -sf $OS_CONFIGS/gnome-launchers/*.desktop ~/.local/share/applications/
   ln -sf $OS_CONFIGS/fontconfig ~/.config
 
-  ln -sf $WORKSPACE/dotlocalEnv ~/.localEnv
+  ln -sf $LOCAL_ENV_FILE ~/.localEnv
  
-  # ln -sf $ASSETS/.themes/uLaunch-Dark/user-themes ~/.config/ulauncher
+  ln -sf $ASSETS/.themes/uLaunch-Dark/user-themes ~/.config/ulauncher
 }
 
 
 # Process Begins here
 downloadRepositories
-
-commonLinkConfigFiles
-
-commonEnv
 
 case $SETUP_OS in 
   "$linux")
@@ -117,7 +112,5 @@ case $SETUP_OS in
 esac
 
 
-
-
-
+commonEnv
 
