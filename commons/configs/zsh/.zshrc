@@ -8,7 +8,7 @@ source $ZSH/oh-my-zsh.sh
 
 ###Added by User
 export WORKSPACE_PATH=~/Workspace
-export PATH_TO_CONFIGS=~/Workspace/config-os/configurations
+export PATH_TO_CONFIGS=~/Workspace/config-os/commons/configs
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -25,20 +25,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-###GitEye
-export GIT_SSH=/usr/bin/ssh
-
-. ~/.workenv
+. ~/.localEnv
 . $PATH_TO_CONFIGS/nix-aliases
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 
-
-
-export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
-
-alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java11='export JAVA_HOME=$JAVA_11_HOME'
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/bhavik.patel/.sdkman"
-[[ -s "/Users/bhavik.patel/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/bhavik.patel/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

@@ -2,12 +2,18 @@
 
 > ## Set Environment Variable
 >
-> `export SETUP_OS=pop` (also in .env file)
+> `export SETUP_OS=linux` (also in .env file)
 
 - `mac` for MacOS
-- `pop` for ubuntu based os
+- `linux` for ubuntu based os
 
-bash <(curl -s https://raw.githubusercontent.com/bhavik3210/config-os/master/commons/scrips/startInstall.sh)
+## generate and add SSH keys into github
+
+`bash <(curl -s https://raw.githubusercontent.com/bhavik3210/config-os/master/commons/scrips/setupSSHKeys.sh)`
+
+## Install
+
+`bash <(curl -s https://raw.githubusercontent.com/bhavik3210/config-os/master/commons/scrips/startInstall.sh)`
 
 # TODO
 
