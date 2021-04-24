@@ -86,6 +86,9 @@ linuxLinkConfigFiles() {
   ln -sf $ASSETS/typora/typora-themes/*  $HOME/.config/Typora/themes
 
   ln -sf $OS_CONFIGS/gnome-launchers/*.desktop $HOME/.local/share/applications/
+  cd /usr/share/applications
+  sudo rm exo-terminal-emulator.desktop xfce4-terminal.desktop org.gnome.Terminal.desktop xfce4-terminal-settings.desktop
+
   ln -sf $OS_CONFIGS/fontconfig $HOME/.config
 
   ln -sf $LOCAL_ENV_FILE $HOME/.localEnv
