@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Name=Terminal
+Comment=Use the command line
+Keywords=shell;prompt;command;commandline;cmd;
+TryExec=xfce4-terminal
+Comment=Terminal
+GenericName=Terminal
+Exec=xfce4-terminal
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;TerminalEmulator;
+StartupNotify=true
+X-GNOME-SingleWindow=false
+OnlyShowIn=GNOME;Unity;
+Actions=new-window;preferences;
+X-Ubuntu-Gettext-Domain=xfce4-terminal
+
+[Desktop Action preferences]
+Name=Preferences
+Exec=xfce4-terminal --preferences

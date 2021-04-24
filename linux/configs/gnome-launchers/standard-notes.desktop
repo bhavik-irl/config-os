@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Standard Notes
+Comment=A simple and private place for your notes, thoughts, and life’s work.
+Exec="/home/bhavik/Applications/Standard-Notes.AppImage" %U
+Terminal=false
+Type=Application
+Icon=/home/bhavik/Workspace/config-os/commons/assets/.icons/standard-notes.png
+StartupWMClass=standard notes
+Categories=Office;
+TryExec=/home/bhavik/Applications/Standard-Notes.AppImage
