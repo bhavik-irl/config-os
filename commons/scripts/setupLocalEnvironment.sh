@@ -84,8 +84,6 @@ linuxLinkConfigFiles() {
   ln -sf $ASSETS/.fonts/ $HOME/.fonts
 
   ln -sf $ASSETS/typora/typora-themes/*  $HOME/.config/Typora/themes
-  
-  ln -sf $OS_CONFIGS/.xbindkeysrc $HOME/.xbindkeysrc
 
   ln -sf $OS_CONFIGS/gnome-launchers/*.desktop $HOME/.local/share/applications/
   ln -sf $OS_CONFIGS/fontconfig $HOME/.config
