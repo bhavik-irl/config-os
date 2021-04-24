@@ -47900,13 +47900,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.25882352941176473</real>
+				<real>0.33725490196078434</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.47843137254901963</real>
+				<real>0.56862745098039214</real>
 				<key>Red Component</key>
-				<real>0.19215686274509805</real>
+				<real>0.22352941176470589</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -48006,13 +48006,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.078431372549019607</real>
+				<real>0.054901960784313725</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.078431372549019607</real>
+				<real>0.054901960784313725</real>
 				<key>Red Component</key>
-				<real>0.078431372549019607</real>
+				<real>0.054901960784313725</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -48071,13 +48071,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.045385731579766775</real>
+				<real>0.0078431372549019607</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.93713031081371878</real>
+				<real>0.93333333333333335</real>
 				<key>Red Component</key>
-				<real>0.99016290903091431</real>
+				<real>0.99215686274509807</real>
 			</dict>
 			<key>Cursor Guide Color</key>
 			<dict>
@@ -48097,13 +48097,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.4492034912109375</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.4492034912109375</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.4492034912109375</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>0</integer>
@@ -48142,6 +48142,8 @@
 			<integer>0</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Use Transparency</key>
+			<false/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -48459,13 +48461,13 @@
 			<key>Name</key>
 			<string>Term</string>
 			<key>Non Ascii Font</key>
-			<string>InconsolataForPowerline 12</string>
+			<string>JetBrainsMono-Medium 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Non-ASCII Ligatures</key>
 			<false/>
 			<key>Normal Font</key>
-			<string>Inconsolata-Regular 21</string>
+			<string>JetBrainsMono-Regular 16</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -48485,26 +48487,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.28870143366090156</real>
+				<real>0.3948213157527789</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.8770805595029495</real>
+				<real>0.95254784822463989</real>
 				<key>Red Component</key>
-				<real>0.93947285353535359</real>
+				<real>0.95094792470009293</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.29906662514045229</real>
+				<real>0.089366915948203215</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.31218434343434343</real>
+				<real>0.0925750732421875</real>
 				<key>Red Component</key>
-				<real>0.30208500943556621</real>
+				<real>0.090077007447734517</real>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
