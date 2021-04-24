@@ -17,14 +17,17 @@
 
 ## Terminal Emulator
 
-Foreground (Text Color): 828282
-Background: 0e0e0e
+- Text: 828282
+- Background: 0e0e0e
 
-Text Color (Selection): f2f264
-Background (Selection): 161716
+Selection
+
+- Text: f2f264
+- Background: 161716
 
 Cursor: fdee02
-Cursor Type: Line
+
+- Type: Line
 
 Font: Jetbrains Mono Regular
 
@@ -34,7 +37,7 @@ Font: Jetbrains Mono Regular
 2. Red: eb2a76
 3. Green: 399156
 4. Yellow: f9ab18
-5. Blue: 868387
+5. Blue: 868387 (for Linux use 399156)
 6. Magneta: 868584
 7. Cyan: 399156
 8. White: 5b80d0
