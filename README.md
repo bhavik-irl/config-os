@@ -15,7 +15,8 @@
 
 `bash <(curl -s https://raw.githubusercontent.com/bhavik3210/config-os/master/commons/scrips/startInstall.sh)`
 
-# TODO
+## What this setup script does?
 
-- clean up `iterm-color-profiles` dir (removed that is unnecessary)
-- fix soft links paths based on where the files are now moved to in linuxInstall and macInstall files
+- download and install necessary dev tools
+- download and soft link dot files
+- produce dotlocalEnv file which can be used to add local envionronment things that are not meant to be submitted to this repo
