@@ -47000,6 +47000,10 @@
 	<real>147</real>
 	<key>MaxVertically</key>
 	<true/>
+	<key>NeverWarnAboutShortLivedSessions_90754C70-DA27-435C-9F77-2B94BF025A9D</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_90754C70-DA27-435C-9F77-2B94BF025A9D_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
