@@ -2,7 +2,7 @@
 
 > ## Set Environment Variable
 >
-> `export SETUP_OS=linux` (also in .env file)
+> `export SETUP_OS=linux`
 
 - `mac` for MacOS
 - `linux` for ubuntu based os
