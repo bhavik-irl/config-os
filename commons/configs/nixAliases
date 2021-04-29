@@ -10,6 +10,7 @@ alias .5='cd ../../../../..'
 
 alias ghistory='git log --graph --pretty=oneline --abbrev-commit'
 alias ghistorypretty='git log --pretty=oneline'
+alias gCommitEmpty='git commit --allow-empty -m "empty commit"'
 
 # files navigation
 alias workspace='cd $WORKSPACE_PATH'
