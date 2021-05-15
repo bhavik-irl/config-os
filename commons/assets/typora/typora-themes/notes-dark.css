@@ -394,6 +394,7 @@ code {
   margin-left: -1.8rem;
   height: 1.2rem;
   width: 1.2rem;
+  font-size: 14px;
   transition: background 0.3s;
 }
 
@@ -408,7 +409,7 @@ code {
 }
 
 #write .md-task-list-item > input[checked]::before {
-  content: '✓';
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
