@@ -1,17 +1,17 @@
 @import './notes-dark/codeblock.xydark.css';
 
 @font-face {
-  font-family: 'JetBrainsMono Regular';
+  font-family: 'Roboto Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("JetBrainsMono Regular"), url("../../../assets/.fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  src: local("Roboto Regular"), url("../../../assets/.fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'JetBrainsMono Bold';
+  font-family: 'Roboto Bold';
   font-style: normal;
   font-weight: bold;
-  src: local("JetBrainsMono Bold"), url("../../../assets/.fonts/JetBrainsMono-Bold.ttf") format("truetype");
+  src: local("Roboto Bold"), url("../../../assets/.fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 :root {
@@ -138,6 +138,8 @@ h1 {
   font-size: 2.2em;
   line-height: 1.3;
   color: #bd684c;
+  text-align: center;
+  margin: 0 auto;
   border-bottom: 1px solid var(--light-trait-100);
 }
 
