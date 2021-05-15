@@ -4,14 +4,14 @@
   font-family: 'JetBrainsMono Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("JetBrainsMono Regular"), url("../../../.fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  src: local("JetBrainsMono Regular"), url("../../../assets/.fonts/JetBrainsMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'JetBrainsMono Bold';
   font-style: normal;
   font-weight: bold;
-  src: local("JetBrainsMono Bold"), url("../../../.fonts/JetBrainsMono-Bold.ttf") format("truetype");
+  src: local("JetBrainsMono Bold"), url("../../../assets/.fonts/JetBrainsMono-Bold.ttf") format("truetype");
 }
 
 :root {
