@@ -1,4 +1,6 @@
-# Gnome Extensions
+# Manual Setup
+
+## Gnome Extensions
 
 - Dash to Dock
 - Dash to Panel
@@ -12,6 +14,12 @@
 - Steal My Focus
 - Toggle Night Light
 - Night Light Slider
+
+## Dconf settings
+
+#### [center-new-windows](https://askubuntu.com/questions/142128/open-windows-in-center-of-screen)
+
+in `deconf-editor` app open `/org/gnome/mutter/` and toggle on `center-new-windows`
 
 # uLauncher Plugins
 

@@ -23,7 +23,7 @@ echo "
 ██║██║╚████║░╚═══██╗░░░██║░░░██╔══██║██║░░░░░██║░░░░░██║██║╚████║██║░░╚██╗
 ██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗██║██║░╚███║╚██████╔╝
 ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝╚═╝░░╚══╝░╚═════╝░"
-sudo apt-get install -y unzip htop pdftk curl papirus-icon-theme xfce4-terminal wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks code signal-desktop
+sudo apt-get install -y unzip htop pdftk curl papirus-icon-theme xfce4-terminal wget gpick fonts-powerline build-essential git gimp zsh flameshot ulauncher redis-tools calibre tree qemu-kvm timeshift gnome-shell-extensions gnome-tweaks code signal-desktop dconf-editor
 
 # AWS
 echo "
