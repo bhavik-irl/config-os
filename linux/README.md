@@ -21,9 +21,9 @@
 
 in `deconf-editor` app open `/org/gnome/mutter/` and toggle on `center-new-windows`
 
-# uLauncher Plugins
+# Typora
 
-- [Gnome Settings](https://github.com/friday/ulauncher-gnome-settings)
+Image `Copy image to custom foler` : `./.assets/.${filename}`
 
 # set xfce terminal as default Terminal
 
