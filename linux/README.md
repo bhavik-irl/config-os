@@ -23,7 +23,7 @@ in `deconf-editor` app open `/org/gnome/mutter/` and toggle on `center-new-windo
 
 # Typora
 
-Image `Copy image to custom foler` : `./.assets/.${filename}`
+Image `Copy image to custom foler` : `.assets/${filename}.assets`
 
 # set xfce terminal as default Terminal
 
