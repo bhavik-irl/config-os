@@ -36,23 +36,15 @@ change name for gnome terminal launcher to GNOME-T
 
 **Resize Presets**
 
-Preset resize 1: `3x1 0:0 0:0, 1:0 1:0,  2:0 2:0`
+Preset resize 1: `3x1 0:0 0:0, 1:0 1:0,  2:0 2:0` `Ctrl + 1`
 
-Preset resize 2: `4x1 0:0 0:0, 1:0 2:0, 3:0 3:0`
+Preset resize 2: `4x1 0:0 0:0, 1:0 2:0, 3:0 3:0`  `Ctrl + 2`
 
-Preset resize 3: `2x1 0:0 0:0, 1:0 1:0`
+Preset resize 3: `2x1 0:0 0:0, 1:0 1:0` `Ctrl + 3` 
 
-Preset resize 4: `3x1 0:0 0:0, 1:0 2:0`
+Preset resize 4: `3x1 0:0 0:0, 1:0 2:0` `Ctrl + 4`
 
-**Shortcuts**
-
-Preset resize 1: `Ctrl + 1`
-
-Preset resize 2: `Ctrl + 2`
-
-Preset resize 3: `Ctrl + 3`
-
-Preset resize 4: `Ctrl + 4`
+Preset reize 5: `1x1 0:0 0:0` `Ctrl + 5`
 
 ## Misc.
 
