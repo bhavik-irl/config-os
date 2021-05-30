@@ -82,6 +82,7 @@ linuxLinkConfigFiles() {
 
   ln -sf $ASSETS/.themes/ $HOME/.themes
   ln -sf $ASSETS/.fonts/ $HOME/.fonts
+  ln -sf $ASSETS/.icons/ $HOME/.icons
 
   ln -sf $ASSETS/typora/typora-themes/*  $HOME/.config/Typora/themes
 
