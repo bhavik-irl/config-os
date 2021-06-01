@@ -8,7 +8,7 @@
 - User Themes
 - Sound Input & Output Device Chooser
 - Bluetooth quick connect
-- gTile 
+- gTile
 - Caffeine
 - Impatience
 - Steal My Focus
@@ -32,19 +32,25 @@ rm xfce-terminal-settings launcher
 change name for xfce terminal launcher to Terminal
 change name for gnome terminal launcher to GNOME-T
 
-## gTile 
+## gTile
 
 **Resize Presets**
 
-Preset resize 1: `3x1 0:0 0:0, 1:0 1:0,  2:0 2:0` `Ctrl + 1`
+Preset resize 1: `3x1 0:0 0:0, 1:0 1:0, 2:0 2:0` `Ctrl + 1`
 
-Preset resize 2: `4x1 0:0 0:0, 1:0 2:0, 3:0 3:0`  `Ctrl + 2`
+Preset resize 2: `4x1 0:0 0:0, 1:0 2:0, 3:0 3:0` `Ctrl + 2`
 
-Preset resize 3: `2x1 0:0 0:0, 1:0 1:0` `Ctrl + 3` 
+Preset resize 3: `2x1 0:0 0:0, 1:0 1:0` `Ctrl + 3`
 
 Preset resize 4: `3x1 0:0 0:0, 1:0 2:0` `Ctrl + 4`
 
 Preset reize 5: `1x1 0:0 0:0` `Ctrl + 5`
+
+## ulauncher
+
+edit `/usr/share/applications/ulauncher.desktop`
+
+update Exec to `Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=1 GDK_BACKEND=x11 /usr/bin/ulauncher --hide-window`
 
 ## Misc.
 
