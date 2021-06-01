@@ -80,6 +80,8 @@ linuxLinkConfigFiles() {
   git commit -am "added themes and plugins"
   cd
 
+  ln -sf $COMMON_CONFIGS/git/.gitconfig $HOME/.gitconfig
+
   ln -sf $ASSETS/.themes/ $HOME/.themes
   ln -sf $ASSETS/.fonts/ $HOME/.fonts
   ln -sf $ASSETS/.icons/ $HOME/.icons
