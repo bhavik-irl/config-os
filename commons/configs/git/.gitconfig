@@ -25,3 +25,9 @@
 	st = status
 	ss = st --short
 	egc = config --global -e
+	esc = config --system -e
+	elc = config --local -e
+	co = checkout
+	br = branch
+	ci = commit
+	amend = co -a --amend
