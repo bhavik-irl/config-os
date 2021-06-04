@@ -1,7 +1,7 @@
 # Global Git Config
 [user]
-	email = bhavik@email.com
 	name = bhavik
+	email = "bpatel5493@gmail.com"
 [pull]
 	rebase = false
 [core]
