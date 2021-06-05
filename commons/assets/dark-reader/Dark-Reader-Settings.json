@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "theme": {
+        "mode": 1,
+        "brightness": 98,
+        "contrast": 112,
+        "grayscale": 0,
+        "sepia": 13,
+        "useFont": false,
+        "fontFamily": "serif",
+        "textStroke": 0.2,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#181a1b",
+        "darkSchemeTextColor": "#e8e6e3",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "",
+        "selectionColor": "auto",
+        "styleSystemControls": true
+    },
+    "presets": [],
+    "customThemes": [],
+    "siteList": [
+        "https://docs.gradle.org",
+        "github.com",
+        "https://kotlinlang.org/docs/home.html",
+        "kotlinlang.org"
+    ],
+    "siteListEnabled": [],
+    "applyToListedOnly": true,
+    "changeBrowserTheme": false,
+    "notifyOfNews": false,
+    "syncSettings": true,
+    "syncSitesFixes": false,
+    "automation": "",
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "enableForPDF": true,
+    "enableForProtectedPages": false
+}
